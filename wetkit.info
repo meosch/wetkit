@@ -78,3 +78,6 @@ dependencies[] = search
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
+
+; Stanford Metatags Nobots
+dependiencies[] = stanford_metatag_nobots

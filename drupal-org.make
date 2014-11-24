@@ -153,3 +153,8 @@ projects[meoswetkit_shiny][type] = "theme"
 projects[meoswetkit_shiny][download][type] = "git"
 projects[meoswetkit_shiny][download][url] = "git@github.com:frederickjh/meoswetkit_shiny.git"
 
+;Stanford Metatag Nobots so test sites do not get indexed
+projects[stanford_metatag_nobots][type] = "module"
+projects[stanford_metatag_nobots][download][type] = "git"
+projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
+
