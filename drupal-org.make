@@ -142,3 +142,7 @@ projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = "contrib"
 
 ; END Tasy Backend stuff
+
+
+; Translations
+translations[] = de
