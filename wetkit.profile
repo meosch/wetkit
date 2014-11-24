@@ -105,12 +105,12 @@ function _wetkit_set_theme($target_theme) {
 function wetkit_install_welcome($form, &$form_state, &$install_state) {
   drupal_set_title(st('Welcome'));
 
-  $message = st('Thank you for choosing the Web Experience Toolkit Drupal Distribution!') . '<br />';
+  $message = st('Thank you for choosing the MEOS Web Experience Toolkit Drupal Distribution!') . '<br />';
   $message .= '<p>' . st('This distribution installs Drupal with
-    preconfigured features that will help you meet Enterprise Standards.') . '</p>';
+    preconfigured features and is for MEOS. It adds what MEOS websites need on installation on top of the Drupal Wetkit distribution.') . '</p>';
   $message .= '<p>' . st('Please note that this is a community-supported work in progress,
-    so be sure to join us over on ' . l(t('github.com/wet-boew/wet-boew-drupal'), 'http://github.com/wet-boew/wet-boew-drupal') .
-    ' and help us improve this product.') . '</p>';
+    so be sure to join in over on ' . l(t('github.com/wet-boew/wet-boew-drupal'), 'http://github.com/wet-boew/wet-boew-drupal') .
+    ' and help us improve the Drupal Wetkit.') . '</p>';
 
   $form = array();
   $form['welcome_message'] = array(
