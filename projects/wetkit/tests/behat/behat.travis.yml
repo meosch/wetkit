@@ -1,0 +1,48 @@
+default:
+  paths:
+    features: 'features'
+  filters:
+    tags: "~@chrome"
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url:  'http://127.0.0.1:8080'
+      goutte: ~
+      selenium2: ~
+      default_session: 'goutte'
+      javascript_session: 'selenium2'
+      files_path: ../../images
+    Drupal\DrupalExtension\Extension:
+      blackbox: ~
+      drush:
+        alias: self
+      region_map:
+        # Common Regions for Drupal WxT
+        Breadcrumb: ".breadcrumb ol"
+        Content Well: "#wb-main-in"
+        Left Sidebar: "#wb-sec-in"
+        Mega Menu: ".mb-menu"
+        Tabs: ".tabs--primary"
+        # Panels Layout Regions for Drupal WxT
+        Burr Flipped Content: ".burr-flipped-content-region"
+        Burr Flipped Sidebar: ".burr-flipped-sidebar-region"
+        Pearson Content: ".region-pearson-first"
+        Pearson Sidebar: ".region-pearson-second"
+        # For Metatag specific regions
+        Edit Metatags: "#edit-metatags"
+        # For Panels / WxT specific regions
+        CTools modal: "#modalContent"
+        Live preview: "fieldset.widget-preview"
+
+# Additional options.
+# imports:
+#   - behat.yml
+
+# Setup for Google Chrome only tests.
+chrome:
+  filters:
+    tags: "@chrome"
+  extensions:
+    Behat\MinkExtension\Extension:
+      selenium2:
+        browser: chrome
+        capabilities: {"browser": "chrome", "browserName": "chrome", "browserVersion": "ANY", "version": "ANY"}
