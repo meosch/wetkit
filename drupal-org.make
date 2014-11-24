@@ -146,3 +146,10 @@ projects[views_bulk_operations][subdir] = "contrib"
 
 ; Translations
 translations[] = de
+
+
+; MEOS Wetkit Shiny Theme
+projects[meoswetkit_shiny][type] = "theme"
+projects[meoswetkit_shiny][download][type] = "git"
+projects[meoswetkit_shiny][download][url] = "git@github.com:frederickjh/meoswetkit_shiny.git"
+
