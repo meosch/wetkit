@@ -172,6 +172,7 @@ function wetkit_form_install_configure_form_alter(&$form, $form_state) {
 /**
  * Batch Processing for French Language import.
  */
+/**
 function wetkit_batch_processing(&$install_state) {
   // Import the additonal language po file and translate the interface.
   // Require once is only added here because too early in the bootstrap.
@@ -183,7 +184,8 @@ function wetkit_batch_processing(&$install_state) {
   return $batch;
 
 }
-
+ */
+ 
 /**
  * Task callback: return a batch API array with the products to be imported.
  */
