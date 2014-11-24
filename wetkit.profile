@@ -26,11 +26,11 @@ function wetkit_install_tasks(&$install_state) {
   $tasks = $tasks + wetkit_theme_profile_theme_selection_install_task($install_state);
 
   // Set up a task to include secondary language (fr).
-  $tasks['wetkit_batch_processing'] = array(
+/**  $tasks['wetkit_batch_processing'] = array(
     'display_name' => st('Import French Language'),
     'type' => 'batch',
   );
-
+ */
   $tasks['wetkit_import_content'] = array(
     'display_name' => st('Import Required Content'),
     'type' => 'batch',
@@ -74,8 +74,8 @@ function wetkit_install_tasks_alter(&$tasks, $install_state) {
   _wetkit_set_theme('meoswetkit_shiny');
 
   // If using French Locale as default remove associated Install Task.
-  unset($tasks['install_import_locales']);
-  unset($tasks['install_import_locales_remaining']);
+//  unset($tasks['install_import_locales']);
+//  unset($tasks['install_import_locales_remaining']);
 
   // Magically go one level deeper in solving years of dependency problems.
   require_once drupal_get_path('module', 'wetkit_core') . '/wetkit_core.profile.inc';

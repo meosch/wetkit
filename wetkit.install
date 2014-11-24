@@ -111,7 +111,7 @@ function wetkit_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'wetkit_omega');
+  $default_theme = variable_get('theme_default', 'bartik');
   $admin_theme = 'seven';
   $blocks = array(
     array(
@@ -195,11 +195,25 @@ function wetkit_install() {
       'cache' => -1,
     ),
   );
-  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+/**  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
   foreach ($blocks as $block) {
     $query->values($block);
   }
   $query->execute();
+ */
+   // ERROR -> Integrity constraint violation: 1062 Duplicate entry 'bartik-system-main' for key 'tmd'
+  // https://www.drupal.org/node/2153781   http://cgit.drupalcode.org/civicrm_starterkit/commit/?id=60ac644
+  // Insert core blocks using merge query to avoid unique index constraints.
+  foreach ($blocks as $value) {
+    db_merge('block')
+      ->key(
+        array('theme', 'module', 'delta'),
+        array($value['theme'], $value['module'], $value['delta'])
+      )
+      ->fields($value)
+      ->execute();
+  }  
+  
 
   // Insert default pre-defined node types into the database. For a complete
   // list of available node type attributes, refer to the node type API
