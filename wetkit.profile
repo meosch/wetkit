@@ -71,7 +71,7 @@ function wetkit_install_tasks_alter(&$tasks, $install_state) {
   $old_tasks = $tasks;
   $tasks = array_slice($old_tasks, 0, 2) + $new_task + array_slice($old_tasks, 2);
 
-  _wetkit_set_theme('wetkit_shiny');
+  _wetkit_set_theme('meoswetkit_shiny');
 
   // If using French Locale as default remove associated Install Task.
   unset($tasks['install_import_locales']);
