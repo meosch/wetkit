@@ -13,6 +13,6 @@ projects[drupal][patch][1772316] = http://drupal.org/files/drupal7-allow_change_
 projects[drupal][patch][2289867] = http://drupal.org/files/issues/D7_port_fix_w3c_url_validation_html5_changes-2289867-1.patch
 
 ; Install profile
-projects[meoswetkit][type] = "profile"
-projects[meoswetkit][download][type] = "git"
-projects[meoswetkit][download][url] = "git@github.com:frederickjh/wetkit.git"
+projects[wetkit][type] = "profile"
+projects[wetkit][download][type] = "git"
+projects[wetkit][download][url] = "git@github.com:frederickjh/wetkit.git"
