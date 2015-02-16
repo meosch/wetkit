@@ -1,7 +1,7 @@
 #!/bin/bash
-GITURL="http://git.drupal.org/project/dkan.git"
+GITURL="https://github.com/wet-boew/wet-boew-drupal.git"
 BRANCH="7.x-1.x"
-PREFIX="projects/dkan"
+PREFIX="projects/wetkit"
 echo "Pulling in latest updates on branch $BRANCH from remote $GITURL."
 
 # Change to git root directory.
