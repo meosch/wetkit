@@ -147,7 +147,7 @@ function wetkit_form_install_configure_form_alter(&$form, $form_state) {
   $form['site_information']['site_name']['#default_value'] = 'Web Experience Toolkit';
   $form['admin_account']['account']['name']['#default_value'] = 'admin';
   $form['server_settings']['site_default_country']['#default_value'] = 'CH';
-  $form['server_settings']['date_default_timezone']['#default_value'] = 'America/New_York';
+  $form['server_settings']['date_default_timezone']['#default_value'] = 'Europe/Zurich';
 
   // Define a default email address if we can guess a valid one.
   if (valid_email_address('admin@' . $_SERVER['HTTP_HOST'])) {
