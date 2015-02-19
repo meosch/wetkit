@@ -189,7 +189,7 @@ function wetkit_batch_processing(&$install_state) {
 /**
  * Task callback: return a batch API array with the products to be imported.
  */
-function wetkit_import_content() {
+/** function wetkit_import_content() {
 
   // Run Mega Menu migration.
   $operations[] = array('_wetkit_import', array(
@@ -219,19 +219,21 @@ function wetkit_import_content() {
   );
   return $batch;
 }
+*/
 
 /**
  * Form submit callback: Demo content form submit callback.
  */
-function wetkit_import_demo_content_form_submit($form, &$form_state) {
+/**function wetkit_import_demo_content_form_submit($form, &$form_state) {
   global $install_state;
   $install_state['parameters']['demo_content'] = $form_state['values']['demo_content'];
 }
+*/
 
 /**
  * Task callback: return a batch API array with the products to be imported.
  */
-function wetkit_import_demo_content() {
+/**function wetkit_import_demo_content() {
   // Fixes problems when the CSV files used for importing have been created
   // on a Mac, by forcing PHP to detect the appropriate line endings.
   ini_set("auto_detect_line_endings", TRUE);
@@ -283,6 +285,7 @@ function wetkit_import_demo_content() {
 
   return $batch;
 }
+*/
 
 /**
  * Implements hook_form_FORM_ID_alter().
