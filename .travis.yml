@@ -1,0 +1,49 @@
+# Declare testing language
+language: php
+
+# Language versioning
+php:
+  - 5.4
+
+# Envars for contextual operations
+env:
+  - DB=mysql UPGRADE=none
+  - DB=postgres UPGRADE=none
+
+# Specifications of database(s)
+mysql:
+  adapter: mysql2
+  database: drupal_db
+  username: root
+  encoding: utf8
+postgres:
+  adapter: postgresql
+  database: drupal_db
+  username: postgres
+
+# Params for matrices
+matrix:
+  fast_finish: true
+
+# Travis script(s)
+install:
+  # Make some variables available to the travis-ci.sh script.
+  - export UPDATE TRAVIS_BUILD_DIR
+
+  # Copy the script into a stable location.
+  - cp scripts/travis-ci.sh $HOME/
+
+  # Move to the directory above, where we should remain.
+  - cd ..
+
+  # Start by doing system installation.
+  - $HOME/travis-ci.sh system-install
+
+before_script:
+  - $HOME/travis-ci.sh before-tests
+
+script:
+  - $HOME/travis-ci.sh run-tests
+
+after_script:
+  - $HOME/travis-ci.sh after-tests
