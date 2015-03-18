@@ -59,7 +59,6 @@ function wetkit_install() {
     ->condition('type', 'theme')
     ->condition('name', 'bootstrap')
     ->execute();
-}
 
 // Tasty Backend stuff
   // Add text formats.
