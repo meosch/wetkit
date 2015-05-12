@@ -76,3 +76,6 @@ projects[wetkit_bootstrap][type] = theme
 
 projects[wetkit_shiny][version] = 4.0
 projects[wetkit_shiny][type] = theme
+
+; Translations
+translations[] = de
