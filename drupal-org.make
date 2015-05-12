@@ -79,3 +79,9 @@ projects[wetkit_shiny][type] = theme
 
 ; Translations
 translations[] = de
+
+projects[meoswetkit][type] = "profile"
+projects[meoswetkit][download][type] = "git"
+projects[meoswetkit][download][url] = "https://github.com/frederickjh/meoswetkit.git"
+projects[meoswetkit][download][branch] = "testing"
+projects[meoswetkit][subdir] = "meoswetkit"
