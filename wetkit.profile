@@ -26,11 +26,11 @@ function wetkit_install_tasks(&$install_state) {
   $tasks = $tasks + wetkit_theme_profile_theme_selection_install_task($install_state);
 
   // Set up a task to include secondary language (fr).
-/**  $tasks['wetkit_batch_processing'] = array(
+  $tasks['wetkit_batch_processing'] = array(
     'display_name' => st('Import French Language'),
     'type' => 'batch',
   );
- */
+
   $tasks['wetkit_import_content'] = array(
     'display_name' => st('Import Required Content'),
     'type' => 'batch',
@@ -71,11 +71,11 @@ function wetkit_install_tasks_alter(&$tasks, $install_state) {
   $old_tasks = $tasks;
   $tasks = array_slice($old_tasks, 0, 2) + $new_task + array_slice($old_tasks, 2);
 
-  _wetkit_set_theme('meoswetkit_shiny');
+  _wetkit_set_theme('wetkit_shiny');
 
   // If using French Locale as default remove associated Install Task.
-//  unset($tasks['install_import_locales']);
-//  unset($tasks['install_import_locales_remaining']);
+  unset($tasks['install_import_locales']);
+  unset($tasks['install_import_locales_remaining']);
 
   // Magically go one level deeper in solving years of dependency problems.
   require_once drupal_get_path('module', 'wetkit_core') . '/wetkit_core.profile.inc';
@@ -105,12 +105,12 @@ function _wetkit_set_theme($target_theme) {
 function wetkit_install_welcome($form, &$form_state, &$install_state) {
   drupal_set_title(st('Welcome'));
 
-  $message = st('Thank you for choosing the MEOS Web Experience Toolkit Drupal Distribution!') . '<br />';
+  $message = st('Thank you for choosing the Web Experience Toolkit Drupal Distribution!') . '<br />';
   $message .= '<p>' . st('This distribution installs Drupal with
-    preconfigured features and is for MEOS. It adds what MEOS websites need on installation on top of the Drupal Wetkit distribution.') . '</p>';
+    preconfigured features that will help you meet Enterprise Standards.') . '</p>';
   $message .= '<p>' . st('Please note that this is a community-supported work in progress,
-    so be sure to join in over on ' . l(t('github.com/wet-boew/wet-boew-drupal'), 'http://github.com/wet-boew/wet-boew-drupal') .
-    ' and help us improve the Drupal Wetkit.') . '</p>';
+    so be sure to join us over on ' . l(t('github.com/wet-boew/wet-boew-drupal'), 'http://github.com/wet-boew/wet-boew-drupal') .
+    ' and help us improve this product.') . '</p>';
 
   $form = array();
   $form['welcome_message'] = array(
@@ -146,8 +146,8 @@ function wetkit_form_install_configure_form_alter(&$form, $form_state) {
   // Set reasonable defaults for site configuration form.
   $form['site_information']['site_name']['#default_value'] = 'Web Experience Toolkit';
   $form['admin_account']['account']['name']['#default_value'] = 'admin';
-  $form['server_settings']['site_default_country']['#default_value'] = 'CH';
-  $form['server_settings']['date_default_timezone']['#default_value'] = 'Europe/Zurich';
+  $form['server_settings']['site_default_country']['#default_value'] = 'CA';
+  $form['server_settings']['date_default_timezone']['#default_value'] = 'America/New_York';
 
   // Define a default email address if we can guess a valid one.
   if (valid_email_address('admin@' . $_SERVER['HTTP_HOST'])) {
@@ -172,7 +172,6 @@ function wetkit_form_install_configure_form_alter(&$form, $form_state) {
 /**
  * Batch Processing for French Language import.
  */
-/**
 function wetkit_batch_processing(&$install_state) {
   // Import the additonal language po file and translate the interface.
   // Require once is only added here because too early in the bootstrap.
@@ -184,22 +183,16 @@ function wetkit_batch_processing(&$install_state) {
   return $batch;
 
 }
- */
- 
+
 /**
  * Task callback: return a batch API array with the products to be imported.
  */
-/** function wetkit_import_content() {
+function wetkit_import_content() {
 
   // Run Mega Menu migration.
   $operations[] = array('_wetkit_import', array(
     'WetKitMigrateMegaMenu',
     t('Importing content.'),
-    ));
-
-  // Run entities import.
-  $operations[] = array('_wetkit_entities_import', array(
-    t('Initializing entities.'),
     ));
 
   // Page Manager Fix.
@@ -219,21 +212,19 @@ function wetkit_batch_processing(&$install_state) {
   );
   return $batch;
 }
-*/
 
 /**
  * Form submit callback: Demo content form submit callback.
  */
-/**function wetkit_import_demo_content_form_submit($form, &$form_state) {
+function wetkit_import_demo_content_form_submit($form, &$form_state) {
   global $install_state;
   $install_state['parameters']['demo_content'] = $form_state['values']['demo_content'];
 }
-*/
 
 /**
  * Task callback: return a batch API array with the products to be imported.
  */
-/**function wetkit_import_demo_content() {
+function wetkit_import_demo_content() {
   // Fixes problems when the CSV files used for importing have been created
   // on a Mac, by forcing PHP to detect the appropriate line endings.
   ini_set("auto_detect_line_endings", TRUE);
@@ -318,7 +309,6 @@ function wetkit_batch_processing(&$install_state) {
 
   return $batch;
 }
-*/
 
 /**
  * Implements hook_form_FORM_ID_alter().
