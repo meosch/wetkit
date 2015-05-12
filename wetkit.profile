@@ -26,11 +26,11 @@ function wetkit_install_tasks(&$install_state) {
   $tasks = $tasks + wetkit_theme_profile_theme_selection_install_task($install_state);
 
   // Set up a task to include secondary language (fr).
-  $tasks['wetkit_batch_processing'] = array(
+/**  $tasks['wetkit_batch_processing'] = array(
     'display_name' => st('Import French Language'),
     'type' => 'batch',
   );
-
+ */
   $tasks['wetkit_import_content'] = array(
     'display_name' => st('Import Required Content'),
     'type' => 'batch',
@@ -74,8 +74,8 @@ function wetkit_install_tasks_alter(&$tasks, $install_state) {
   _wetkit_set_theme('wetkit_shiny');
 
   // If using French Locale as default remove associated Install Task.
-  unset($tasks['install_import_locales']);
-  unset($tasks['install_import_locales_remaining']);
+//  unset($tasks['install_import_locales']);
+//  unset($tasks['install_import_locales_remaining']);
 
   // Magically go one level deeper in solving years of dependency problems.
   require_once drupal_get_path('module', 'wetkit_core') . '/wetkit_core.profile.inc';
@@ -146,7 +146,7 @@ function wetkit_form_install_configure_form_alter(&$form, $form_state) {
   // Set reasonable defaults for site configuration form.
   $form['site_information']['site_name']['#default_value'] = 'Web Experience Toolkit';
   $form['admin_account']['account']['name']['#default_value'] = 'admin';
-  $form['server_settings']['site_default_country']['#default_value'] = 'CA';
+  $form['server_settings']['site_default_country']['#default_value'] = 'CH';
   $form['server_settings']['date_default_timezone']['#default_value'] = 'America/New_York';
 
   // Define a default email address if we can guess a valid one.
@@ -172,6 +172,7 @@ function wetkit_form_install_configure_form_alter(&$form, $form_state) {
 /**
  * Batch Processing for French Language import.
  */
+/**
 function wetkit_batch_processing(&$install_state) {
   // Import the additonal language po file and translate the interface.
   // Require once is only added here because too early in the bootstrap.
@@ -183,7 +184,8 @@ function wetkit_batch_processing(&$install_state) {
   return $batch;
 
 }
-
+ */
+ 
 /**
  * Task callback: return a batch API array with the products to be imported.
  */
