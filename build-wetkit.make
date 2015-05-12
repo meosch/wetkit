@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 ; Drupal.org packaging standards
-projects[drupal][version] = 7.34
+projects[drupal][version] = 7.35
 
 ; Patches for Drupal Core
 projects[drupal][patch][405360] = http://drupal.org/files/issues/aria-describedby_2.patch
