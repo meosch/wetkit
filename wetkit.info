@@ -78,6 +78,7 @@ dependencies[] = search
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
+dependencies[] = delicious_noindex
 
 ; Stanford Metatags Nobots
-dependiencies[] = stanford_metatag_nobots
+;dependiencies[] = stanford_metatag_nobots

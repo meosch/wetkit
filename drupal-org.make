@@ -148,12 +148,17 @@ projects[views_bulk_operations][subdir] = "contrib"
 
 ; END Tasy Backend stuff
 
+;Drupal 7 module that adds noindex, nofollow robots meta tag made by Jeni Tehan of Delicious Creative.
+projects[delicious_noindex][type] = "module"
+projects[delicious_noindex][download][type] = "git"
+projects[delicious_noindex][download][url] = "git@github.com:jenitehan/delicious_noindex.git"
+
 
 ; Translations
 translations[] = de
 
 ;Stanford Metatag Nobots so test sites do not get indexed
-projects[stanford_metatag_nobots][type] = "module"
-projects[stanford_metatag_nobots][download][type] = "git"
-projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
+;projects[stanford_metatag_nobots][type] = "module"
+;projects[stanford_metatag_nobots][download][type] = "git"
+;projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
 
