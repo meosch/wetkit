@@ -59,3 +59,25 @@ stylesheets[all][] = css/wetkit.css
 ; Settings
 variables[password_policy_show_restrictions] = 1
 variables[password_policy_new_login_change] = 0
+
+; Tasty Backend stuff
+; Core dependancies
+dependencies[] = block
+dependencies[] = color
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Stanford Metatags Nobots
+dependiencies[] = stanford_metatag_nobots
