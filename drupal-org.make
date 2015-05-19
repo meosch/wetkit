@@ -193,9 +193,6 @@ libraries[colorbox][destination] = "libraries"
 ;libraries[flexslider][directory_name] = "flexslider"
 ;libraries[flexslider][type] = "library"
 
-projects[imagecache][type] = "modules";Path Management
-projects[imagecache][subdir] = "contrib"
-
 projects[imagefield][type] = "modules"
 projects[imagefield][subdir] = "contrib"
 
