@@ -193,9 +193,6 @@ libraries[colorbox][destination] = "libraries"
 ;libraries[flexslider][directory_name] = "flexslider"
 ;libraries[flexslider][type] = "library"
 
-projects[imagefield][type] = "modules"
-projects[imagefield][subdir] = "contrib"
-
 projects[imagefield_crop][type] = "modules"
 projects[imagefield_crop][subdir] = "contrib"
 
