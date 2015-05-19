@@ -85,6 +85,7 @@ dependencies[] = admin_views
 dependencies[] = backup_migrate
 dependencies[] = coffee
 dependencies[] = drd_server
+dependencies[] = aes         ; DRD Server dependency
 dependencies[] = elysia_cron
 dependencies[] = entity_operations
 ; * Entity Views Attachment
@@ -93,9 +94,10 @@ dependencies[] = file_maintenance
 dependencies[] = human_queue_worker
 dependencies[] = instantfilter
 dependencies[] = log_filter
+dependencies[] = judy                    ; Log Filter dependency
 ; * Mobile Friendly Navigation Toolbar
 dependencies[] = navbar
-dependencies[] = registry_rebuild
+dependencies[] = role_watchdog
 
 ; Functionality
 ;dependencies[] = shared_content
@@ -108,8 +110,8 @@ dependencies[] = advanced_help
 ; Media Presentation
 dependencies[] = colorbox
 ;dependencies[] = flexslider
-dependencies[] = imagecache
-dependencies[] = imagefield
+;dependencies[] = imagecache
+;dependencies[] = imagefield
 dependencies[] = imagefield_crop
 dependencies[] = imagefield_focus
 dependencies[] = scald
@@ -160,17 +162,20 @@ dependencies[] = security_review
 ; SEO
 dependencies[] = beanstag
 dependencies[] = navigation404
-dependencies[] = google_analytics
+; https://www.drupal.org/node/427770#comment-6941046
+dependencies[] = googleanalytics
 dependencies[] = piwik
 dependencies[] = schemaorg
 dependencies[] = search404
 dependencies[] = seo_checklist
+dependencies[] = checklistapi  ; SEO Checklist and Performance and Scalability Checklist (pasc) dependency
 
 ; Social Networking
 dependencies[] = addthis
-dependencies[] = addthis_displays
+;dependencies[] = addthis_displays ; submodule of addthis cannot find a way to enable submodules within an info file.
 dependencies[] = fluxkraft
-dependencies[] = fluxservice
+dependencies[] = fluxservice       ; fluxkraft dependency
+dependencies[] = composer_manager  ; fluxservice dependency
 ;dependencies[] = facebookshare
 dependencies[] = secureshare
 

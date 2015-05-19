@@ -167,6 +167,9 @@ projects[coffee][subdir] = "contrib"
 
 projects[drd_server][type] = "module"
 projects[drd_server][subdir] = "contrib"
+; DRD Server dependency
+projects[aes][type] = "module"
+projects[aes][subdir] = "contrib"
 
 projects[elysia_cron][type] = "module"
 projects[elysia_cron][subdir] = "contrib"
@@ -180,8 +183,7 @@ projects[eva][subdir] = "contrib"
 
 projects[file_maintenance][type] = "module"
 projects[file_maintenance][subdir] = "contrib"
-
-projects[human_queue_worker][type] = "module"
+seckit
 projects[human_queue_worker][subdir] = "contrib"
 
 projects[instantfilter][type] = "module"
@@ -189,9 +191,16 @@ projects[instantfilter][subdir] = "contrib"
 
 projects[log_filter][type] = "module"
 projects[log_filter][subdir] = "contrib"
+; Log Filter dependency
+projects[judy][type] = "module"
+projects[judy][subdir] = "contrib"
+
 
 projects[registry_rebuild][type] = "module"
 projects[registry_rebuild][subdir] = "contrib"
+
+projects[role_watchdog][type] = "module"
+projects[role_watchdog][subdir] = "contrib"
 
 
 ; Functionality
@@ -308,6 +317,7 @@ projects[beanstag][subdir] = "contrib"
 projects[navigation404][type] = "module"
 projects[navigation404][subdir] = "contrib"
 
+; https://www.drupal.org/node/427770#comment-6941046
 projects[google_analytics][type] = "module"
 projects[google_analytics][subdir] = "contrib"
 
@@ -319,6 +329,11 @@ projects[schemaorg][subdir] = "contrib"
 
 projects[seo_checklist][type] = "module"
 projects[seo_checklist][subdir] = "contrib"
+;  SEO Checklist and Performance and Scalability Checklist (pasc) dependency
+projects[checklistapi][type] = "module"
+projects[checklistapi][subdir] = "contrib"
+
+
 
 ; Social Networking
 
@@ -327,9 +342,12 @@ projects[addthis][subdir] = "contrib"
 
 projects[fluxkraft][type] = "module"
 projects[fluxkraft][subdir] = "contrib"
-
+; fluxkraft dependency
 projects[fluxservice][type] = "module"
 projects[fluxservice][subdir] = "contrib"
+; fluxservice dependency
+projects[composer_manager][type] = "module"
+projects[composer_manager][subdir] = "contrib"
 
 ;projects[facebookshare][type] = "module"
 ;projects[facebookshare][subdir] = "contrib"
