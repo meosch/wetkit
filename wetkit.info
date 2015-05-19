@@ -80,6 +80,23 @@ dependencies[] = file
 dependencies[] = rdf
 dependencies[] = delicious_noindex
 
+; Administration
+dependencies[] = admin_views
+dependencies[] = backup_migrate
+dependencies[] = coffee
+dependencies[] = drd_server
+dependencies[] = elysia_cron
+dependencies[] = entity_operations
+; * Entity Views Attachment
+dependencies[] = eva
+dependencies[] = file_maintenance
+dependencies[] = human_queue_worker
+dependencies[] = instantfilter
+dependencies[] = log_filter
+; * Mobile Friendly Navigation Toolbar
+dependencies[] = navbar
+dependencies[] = registry_rebuild
+
 ; Email
 dependencies[] = mandrill
 
