@@ -157,8 +157,3 @@ projects[delicious_noindex][download][url] = "git@github.com:jenitehan/delicious
 ; Translations
 translations[] = de
 
-;Stanford Metatag Nobots so test sites do not get indexed
-;projects[stanford_metatag_nobots][type] = "module"
-;projects[stanford_metatag_nobots][download][type] = "git"
-;projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
-

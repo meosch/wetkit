@@ -80,5 +80,3 @@ dependencies[] = file
 dependencies[] = rdf
 dependencies[] = delicious_noindex
 
-; Stanford Metatags Nobots
-;dependiencies[] = stanford_metatag_nobots
