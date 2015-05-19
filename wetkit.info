@@ -105,7 +105,7 @@ dependencies[] = mandrill
 
 ; Help
 dependencies[] = advanced_help
-dependencies[] = joyride
+;dependencies[] = joyride
 
 
 ; Media Presentation
