@@ -83,7 +83,7 @@ projects[wetkit_shiny][type] = theme
 
 
 ; Tasty Backend stuff.
-; Tasty Backend modules.
+; Tasty Backend module.
 
 projects[tasty_backend_base][type] = "module"
 projects[tasty_backend_base][download][type] = "git"
@@ -103,7 +103,7 @@ projects[tasty_backend_demo][download][url] = "git@github.com:jenitehan/tasty_ba
 ; projects[tasty_backend_demo][download][url] = "https://github.com/jenitehan/tasty_backend_demo.git"
 projects[tasty_backend_demo][subdir] = "tasty_backend"
 
-; Tasty Backend Contrib modules.
+; Tasty Backend Contrib module.
 
 projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][subdir] = "contrib"
@@ -160,23 +160,23 @@ translations[] = de
 ; Administration
 
 ; Email
-projects[mandrill][type] = "modules"
+projects[mandrill][type] = "module"
 projects[mandrill][subdir] = "contrib"
 
 ; Functionality
-projects[shared_content][type] = "modules"
+projects[shared_content][type] = "module"
 projects[shared_content][subdir] = "contrib"
 
 ; Help
-projects[advanced_help][type] = "modules"
+projects[advanced_help][type] = "module"
 projects[advanced_help][subdir] = "contrib"
 
-projects[joyride][type] = "modules"
+projects[joyride][type] = "module"
 projects[joyride][subdir] = "contrib"
 
 ; Media Presentation
 
-projects[colorbox][type] = "modules"
+projects[colorbox][type] = "module"
 projects[colorbox][subdir] = "contrib"
 
 libraries[colorbox][type] = "libraries"
@@ -185,7 +185,7 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/arch
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
-;projects[flexslider][type] = "modules"
+;projects[flexslider][type] = "module"
 ;projects[flexslider][subdir] = "contrib"
 
 ;libraries[flexslider][download][type] = "get"
@@ -193,142 +193,142 @@ libraries[colorbox][destination] = "libraries"
 ;libraries[flexslider][directory_name] = "flexslider"
 ;libraries[flexslider][type] = "library"
 
-projects[imagefield_crop][type] = "modules"
+projects[imagefield_crop][type] = "module"
 projects[imagefield_crop][subdir] = "contrib"
 
-projects[imagefield_focus][type] = "modules"
+projects[imagefield_focus][type] = "module"
 projects[imagefield_focus][subdir] = "contrib"
 
-projects[scald][type] = "modules"
+projects[scald][type] = "module"
 projects[scald][subdir] = "contrib"
 
-projects[scald_panels_dnd][type] = "modules"
+projects[scald_panels_dnd][type] = "module"
 projects[scald_panels_dnd][subdir] = "contrib"
 
-projects[smartcrop][type] = "modules"
+projects[smartcrop][type] = "module"
 projects[smartcrop][subdir] = "contrib"
 
-projects[views_slideshow][type] = "modules"
+projects[views_slideshow][type] = "module"
 projects[views_slideshow][subdir] = "contrib"
 
 ; Multilingual
 
-projects[de_stemmer][type] = "modules"
+projects[de_stemmer][type] = "module"
 projects[de_stemmer][subdir] = "contrib"
 
-projects[lingotek][type] = "modules"
+projects[lingotek][type] = "module"
 projects[lingotek][subdir] = "contrib"
 
 ;Path Management
 
-projects[globalredirect][type] = "modules"
+projects[globalredirect][type] = "module"
 projects[globalredirect][subdir] = "contrib"
 
-projects[pathologic][type] = "modules"
+projects[pathologic][type] = "module"
 projects[pathologic][subdir] = "contrib"
 
-projects[redirect][type] = "modules"
+projects[redirect][type] = "module"
 projects[redirect][subdir] = "contrib"
 
-projects[subpathauto][type] = "modules"
+projects[subpathauto][type] = "module"
 projects[subpathauto][subdir] = "contrib"
 
 ;RSS
 
-projects[flipboardrss][type] = "modules"
+projects[flipboardrss][type] = "module"
 projects[flipboardrss][subdir] = "contrib"
 
 ; RWD Responsive Web Design
 
-projects[context_breakpoint][type] = "modules"
+projects[context_breakpoint][type] = "module"
 projects[context_breakpoint][subdir] = "contrib"
 
-projects[context_mobile_detect][type] = "modules"
+projects[context_mobile_detect][type] = "module"
 projects[context_mobile_detect][subdir] = "contrib"
 
-projects[responsive_tables][type] = "modules"
+projects[responsive_tables][type] = "module"
 projects[responsive_tables][subdir] = "contrib"
 
-projects[touch_icons][type] = "modules"
+projects[touch_icons][type] = "module"
 projects[touch_icons][subdir] = "contrib"
 
-projects[viewport][type] = "modules"
+projects[viewport][type] = "module"
 projects[viewport][subdir] = "contrib"
 
-projects[views_responsive_grid][type] = "modules"
+projects[views_responsive_grid][type] = "module"
 projects[views_responsive_grid][subdir] = "contrib"
 
 ; Security
 
-projects[secure_notes][type] = "modules"
+projects[secure_notes][type] = "module"
 projects[secure_notes][subdir] = "contrib"
 
-projects[seckit][type] = "modules"
+projects[seckit][type] = "module"
 projects[seckit][subdir] = "contrib"
 
-projects[security_review][type] = "modules"
+projects[security_review][type] = "module"
 projects[security_review][subdir] = "contrib"
 
 ; SEO
 
-projects[beanstag][type] = "modules"
+projects[beanstag][type] = "module"
 projects[beanstag][subdir] = "contrib"
 
-projects[navigation404][type] = "modules"
+projects[navigation404][type] = "module"
 projects[navigation404][subdir] = "contrib"
 
-projects[google_analytics][type] = "modules"
+projects[google_analytics][type] = "module"
 projects[google_analytics][subdir] = "contrib"
 
-projects[piwik][type] = "modules"
+projects[piwik][type] = "module"
 projects[piwik][subdir] = "contrib"
 
-projects[schemaorg][type] = "modules"
+projects[schemaorg][type] = "module"
 projects[schemaorg][subdir] = "contrib"
 
-projects[seo_checklist][type] = "modules"
+projects[seo_checklist][type] = "module"
 projects[seo_checklist][subdir] = "contrib"
 
 ; Social Networking
 
-projects[addthis][type] = "modules"
+projects[addthis][type] = "module"
 projects[addthis][subdir] = "contrib"
 
-projects[fluxkraft][type] = "modules"
+projects[fluxkraft][type] = "module"
 projects[fluxkraft][subdir] = "contrib"
 
-projects[facebookshare][type] = "modules"
+projects[facebookshare][type] = "module"
 projects[facebookshare][subdir] = "contrib"
 
 ; Spam Control
 
-projects[botcha][type] = "modules"
+projects[botcha][type] = "module"
 projects[botcha][subdir] = "contrib"
 
-projects[captcha][type] = "modules"
+projects[captcha][type] = "module"
 projects[captcha][subdir] = "contrib"
 
-projects[spambot][type] = "modules"
+projects[spambot][type] = "module"
 projects[spambot][subdir] = "contrib"
 
-projects[badbehavior][type] = "modules"
+projects[badbehavior][type] = "module"
 projects[badbehavior][subdir] = "contrib"
 
-projects[user_verify][type] = "modules"
+projects[user_verify][type] = "module"
 projects[user_verify][subdir] = "contrib"
 
 ; Speed Optimization
 
 ; * Advance CSS/JS Aggregation
-projects[advagg][type] = "modules"
+projects[advagg][type] = "module"
 projects[advagg][subdir] = "contrib"
 
-projects[imageapi_optimize][type] = "modules"
+projects[imageapi_optimize][type] = "module"
 projects[imageapi_optimize][subdir] = "contrib"
 
-projects[fast_404][type] = "modules"
+projects[fast_404][type] = "module"
 projects[fast_404][subdir] = "contrib"
 
-projects[pasc][type] = "modules"
+projects[pasc][type] = "module"
 projects[pasc][subdir] = "contrib"
 
