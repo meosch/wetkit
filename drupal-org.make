@@ -159,6 +159,22 @@ translations[] = de
 
 ; Administration
 
+projects[][type] = "module"
+projects[][subdir] = "contrib"
+
+projects[][type] = "module"
+projects[][subdir] = "contrib"
+
+projects[][type] = "module"
+projects[][subdir] = "contrib"
+
+projects[][type] = "module"
+projects[][subdir] = "contrib"
+
+; Administration
+
+
+
 ; Email
 projects[mandrill][type] = "module"
 projects[mandrill][subdir] = "contrib"
@@ -297,8 +313,12 @@ projects[addthis][subdir] = "contrib"
 projects[fluxkraft][type] = "module"
 projects[fluxkraft][subdir] = "contrib"
 
-projects[facebookshare][type] = "module"
-projects[facebookshare][subdir] = "contrib"
+;projects[facebookshare][type] = "module"
+;projects[facebookshare][subdir] = "contrib"
+
+projects[secureshare][type] = "module"
+projects[secureshare][subdir] = "contrib"
+
 
 ; Spam Control
 

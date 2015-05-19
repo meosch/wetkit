@@ -173,7 +173,8 @@ dependencies[] = seo_checklist
 dependencies[] = addthis
 dependencies[] = addthis_displays
 dependencies[] = fluxkraft
-dependencies[] = facebookshare
+;dependencies[] = facebookshare
+dependencies[] = secureshare
 
 ; Spam Control
 dependencies[] = botcha
