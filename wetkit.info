@@ -80,3 +80,99 @@ dependencies[] = file
 dependencies[] = rdf
 dependencies[] = delicious_noindex
 
+; Email
+dependencies[] = mandrill
+
+; Functionality
+;dependencies[] = shared_content
+
+; Help
+dependencies[] = advanced_help
+dependencies[] = joyride
+
+
+; Media Presentation
+dependencies[] = colorbox
+;dependencies[] = flexslider
+dependencies[] = imagecache
+dependencies[] = imagefield
+dependencies[] = imagefield_crop
+dependencies[] = imagefield_focus
+dependencies[] = scald
+dependencies[] = scald_panels_dnd
+dependencies[] = smartcrop
+dependencies[] = views_slideshow
+; * YouTube Field
+;dependencies[] = youtube
+
+; Multilingual
+dependencies[] = de_stemmer
+dependencies[] = lingotek
+dependencies[] = transliteration
+
+;Path Management
+dependencies[] = globalredirect
+dependencies[] = linkchecker
+dependencies[] = pathauto
+dependencies[] = pathologic
+dependencies[] = redirect
+dependencies[] = subpathauto
+
+;RSS
+dependencies[] = flipboardrss
+
+; RWD Responsive Web Design
+dependencies[] = breakpoints
+dependencies[] = context_breakpoint
+dependencies[] = context_mobile_detect
+; * Responsive Images(Picture)
+;dependencies[] = picture
+dependencies[] = responsive_tables
+dependencies[] = touch_icons
+dependencies[] = viewport
+dependencies[] = views_responsive_grid
+
+; Search
+;dependencies[] = elasticsearch_connector
+;dependencies[] = facetapi
+
+
+; Security
+dependencies[] = secure_notes
+; * Security Kit
+dependencies[] = seckit
+dependencies[] = security_review
+
+; SEO
+dependencies[] = beanstag
+dependencies[] = navigation404
+dependencies[] = google_analytics
+dependencies[] = piwik
+dependencies[] = schemaorg
+dependencies[] = search404
+dependencies[] = seo_checklist
+
+; Social Networking
+dependencies[] = addthis
+dependencies[] = addthis_displays
+dependencies[] = fluxkraft
+dependencies[] = facebookshare
+
+; Spam Control
+dependencies[] = botcha
+dependencies[] = captcha
+dependencies[] = image_captcha
+dependencies[] = spambot
+dependencies[] = badbehavior
+dependencies[] = textcaptcha
+dependencies[] = user_verify
+
+; Speed Optimization
+; * Advance CSS/JS Aggregation
+dependencies[] = advagg
+dependencies[] = imageapi_optimize
+dependencies[] = fast_404
+; * Performance and Scalability Checklist
+dependencies[] = pasc
+
+; 

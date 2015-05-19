@@ -157,3 +157,5 @@ projects[delicious_noindex][download][url] = "git@github.com:jenitehan/delicious
 ; Translations
 translations[] = de
 
+; Spam Control
+;projects[botcha][type] = module
