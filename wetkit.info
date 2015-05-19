@@ -97,9 +97,6 @@ dependencies[] = log_filter
 dependencies[] = navbar
 dependencies[] = registry_rebuild
 
-; Email
-dependencies[] = mandrill
-
 ; Functionality
 ;dependencies[] = shared_content
 
@@ -140,8 +137,8 @@ dependencies[] = flipboardrss
 
 ; RWD Responsive Web Design
 dependencies[] = breakpoints
-dependencies[] = context_breakpoint
-dependencies[] = context_mobile_detect
+;dependencies[] = context_breakpoint
+;dependencies[] = context_mobile_detect
 ; * Responsive Images(Picture)
 ;dependencies[] = picture
 dependencies[] = responsive_tables
@@ -173,6 +170,7 @@ dependencies[] = seo_checklist
 dependencies[] = addthis
 dependencies[] = addthis_displays
 dependencies[] = fluxkraft
+dependencies[] = fluxservice
 ;dependencies[] = facebookshare
 dependencies[] = secureshare
 

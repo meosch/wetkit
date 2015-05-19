@@ -159,25 +159,40 @@ translations[] = de
 
 ; Administration
 
-projects[][type] = "module"
-projects[][subdir] = "contrib"
+projects[backup_migrate][type] = "module"
+projects[backup_migrate][subdir] = "contrib"
 
-projects[][type] = "module"
-projects[][subdir] = "contrib"
+projects[coffee][type] = "module"
+projects[coffee][subdir] = "contrib"
 
-projects[][type] = "module"
-projects[][subdir] = "contrib"
+projects[drd_server][type] = "module"
+projects[drd_server][subdir] = "contrib"
 
-projects[][type] = "module"
-projects[][subdir] = "contrib"
+projects[elysia_cron][type] = "module"
+projects[elysia_cron][subdir] = "contrib"
 
-; Administration
+projects[entity_operations][type] = "module"
+projects[entity_operations][subdir] = "contrib"
 
+; * Entity Views Attachment
+projects[eva][type] = "module"
+projects[eva][subdir] = "contrib"
 
+projects[file_maintenance][type] = "module"
+projects[file_maintenance][subdir] = "contrib"
 
-; Email
-projects[mandrill][type] = "module"
-projects[mandrill][subdir] = "contrib"
+projects[human_queue_worker][type] = "module"
+projects[human_queue_worker][subdir] = "contrib"
+
+projects[instantfilter][type] = "module"
+projects[instantfilter][subdir] = "contrib"
+
+projects[log_filter][type] = "module"
+projects[log_filter][subdir] = "contrib"
+
+projects[registry_rebuild][type] = "module"
+projects[registry_rebuild][subdir] = "contrib"
+
 
 ; Functionality
 projects[shared_content][type] = "module"
@@ -249,18 +264,18 @@ projects[redirect][subdir] = "contrib"
 projects[subpathauto][type] = "module"
 projects[subpathauto][subdir] = "contrib"
 
-;RSS
+; RSS
 
 projects[flipboardrss][type] = "module"
 projects[flipboardrss][subdir] = "contrib"
 
 ; RWD Responsive Web Design
 
-projects[context_breakpoint][type] = "module"
-projects[context_breakpoint][subdir] = "contrib"
+;projects[context_breakpoint][type] = "module"
+;projects[context_breakpoint][subdir] = "contrib"
 
-projects[context_mobile_detect][type] = "module"
-projects[context_mobile_detect][subdir] = "contrib"
+;projects[context_mobile_detect][type] = "module"
+;projects[context_mobile_detect][subdir] = "contrib"
 
 projects[responsive_tables][type] = "module"
 projects[responsive_tables][subdir] = "contrib"
@@ -313,6 +328,9 @@ projects[addthis][subdir] = "contrib"
 projects[fluxkraft][type] = "module"
 projects[fluxkraft][subdir] = "contrib"
 
+projects[fluxservice][type] = "module"
+projects[fluxservice][subdir] = "contrib"
+
 ;projects[facebookshare][type] = "module"
 ;projects[facebookshare][subdir] = "contrib"
 
@@ -330,6 +348,9 @@ projects[captcha][subdir] = "contrib"
 
 projects[spambot][type] = "module"
 projects[spambot][subdir] = "contrib"
+
+projects[textcaptcha][type] = "module"
+projects[textcaptcha][subdir] = "contrib"
 
 projects[badbehavior][type] = "module"
 projects[badbehavior][subdir] = "contrib"
