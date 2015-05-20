@@ -108,8 +108,8 @@ dependencies[] = views_bulk_operations
 
 ; Development
 dependencies[] = apps_batch
-dependencies[] = 
-dependencies[] = 
+;dependencies[] = 
+;dependencies[] = 
 
 ; Functionality
 ;dependencies[] = shared_content

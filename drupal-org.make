@@ -223,8 +223,8 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[apps_batch][type] = "module"
 projects[apps_batch][subdir] = "contrib"
 
-projects[][type] = "module"
-projects[][subdir] = "contrib"
+;projects[][type] = "module"
+;projects[][subdir] = "contrib"
 
 
 
