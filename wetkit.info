@@ -108,8 +108,33 @@ dependencies[] = views_bulk_operations
 
 ; Development
 dependencies[] = apps_batch
-;dependencies[] = 
-;dependencies[] = 
+dependencies[] = context
+;Display Suite
+dependencies[] = ds
+dependencies[] = enabled_modules
+dependencies[] = entityreference
+dependencies[] = entity_view_mode
+dependencies[] = features_extra
+dependencies[] = features_override
+dependencies[] = feature_set
+dependencies[] = field_collection_fieldset
+dependencies[] = inline_entity_form
+dependencies[] = journal
+dependencies[] = profile_status_check
+dependencies[] = qa_checklist
+dependencies[] = rabbit_hole
+dependencies[] = role_export
+dependencies[] = sitenotes
+dependencies[] = views_data_export
+dependencies[] = views_megarow
+dependencies[] = views_system
+
+; Editor Experience
+dependencies[] = beautytips
+dependencies[] = boxes
+dependencies[] = calendar
+dependencies[] = caption_filter
+
 
 ; Functionality
 ;dependencies[] = shared_content

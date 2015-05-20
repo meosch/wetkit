@@ -196,7 +196,6 @@ projects[log_filter][subdir] = "contrib"
 projects[judy][type] = "module"
 projects[judy][subdir] = "contrib"
 
-
 projects[registry_rebuild][type] = "module"
 projects[registry_rebuild][subdir] = "contrib"
 
@@ -223,10 +222,109 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[apps_batch][type] = "module"
 projects[apps_batch][subdir] = "contrib"
 
-;projects[][type] = "module"
-;projects[][subdir] = "contrib"
+projects[architecture][type] = "module"
+projects[architecture][subdir] = "contrib"
 
+projects[behatrunner][type] = "module"
+projects[behatrunner][subdir] = "contrib"
 
+;  SEO Checklist and Performance and Scalability Checklist (pasc) dependency
+projects[checklistapi][type] = "module"
+projects[checklistapi][subdir] = "contrib"
+
+; Code per Node
+projects[cpn][type] = "module"
+projects[cpn][subdir] = "contrib"
+
+projects[context][type] = "module"
+projects[context][subdir] = "contrib"
+
+projects[context_bool_field][type] = "module"
+projects[context_bool_field][subdir] = "contrib"
+
+projects[context_breadcrumb_current_page][type] = "module"
+projects[context_breadcrumb_current_page][subdir] = "contrib"
+
+projects[context_conditional_admin_theme][type] = "module"
+projects[context_conditional_admin_theme][subdir] = "contrib"
+
+projects[context_field][type] = "module"
+projects[context_field][subdir] = "contrib"
+
+projects[context_no_title][type] = "module"
+projects[context_no_title][subdir] = "contrib"
+
+;Display Suite
+projects[ds][type] = "module"
+projects[ds][subdir] = "contrib"
+
+projects[enabled_modules][type] = "module"
+projects[enabled_modules][subdir] = "contrib"
+
+projects[entityreference][type] = "module"
+projects[entityreference][subdir] = "contrib"
+
+projects[entity_view_mode][type] = "module"
+projects[entity_view_mode][subdir] = "contrib"
+
+projects[features_extra][type] = "module"
+projects[features_extra][subdir] = "contrib"
+
+projects[features_override][type] = "module"
+projects[features_override][subdir] = "contrib"
+
+projects[feature_set][type] = "module"
+projects[feature_set][subdir] = "contrib"
+
+projects[field_collection_fieldset][type] = "module"
+projects[field_collection_fieldset][subdir] = "contrib"
+
+projects[inline_entity_form][type] = "module"
+projects[inline_entity_form][subdir] = "contrib"
+
+projects[journal][type] = "module"
+projects[journal][subdir] = "contrib"
+
+projects[mail_redirect][type] = "module"
+projects[mail_redirect][subdir] = "contrib"
+
+projects[profile_status_check][type] = "module"
+projects[profile_status_check][subdir] = "contrib"
+
+projects[qa_checklist][type] = "module"
+projects[qa_checklist][subdir] = "contrib"
+
+projects[rabbit_hole][type] = "module"
+projects[rabbit_hole][subdir] = "contrib"
+
+projects[role_export][type] = "module"
+projects[role_export][subdir] = "contrib"
+
+projects[sitenotes][type] = "module"
+projects[sitenotes][subdir] = "contrib"
+
+projects[views_data_export][type] = "module"
+projects[views_data_export][subdir] = "contrib"
+
+projects[views_megarow][type] = "module"
+projects[views_megarow][subdir] = "contrib"
+
+projects[views_system][type] = "module"
+projects[views_system][subdir] = "contrib"
+
+; Editor Experience
+
+projects[beautytips][type] = "module"
+projects[beautytips][subdir] = "contrib"
+
+projects[boxes][type] = "module"
+projects[boxes][subdir] = "contrib"
+
+projects[calendar][type] = "module"
+projects[calendar][subdir] = "contrib"
+
+projects[caption_filter][type] = "module"
+projects[caption_filter][subdir] = "contrib"
 
 
 ; Functionality
@@ -306,11 +404,11 @@ projects[flipboardrss][subdir] = "contrib"
 
 ; RWD Responsive Web Design
 
-;projects[context_breakpoint][type] = "module"
-;projects[context_breakpoint][subdir] = "contrib"
+projects[context_breakpoint][type] = "module"
+projects[context_breakpoint][subdir] = "contrib"
 
-;projects[context_mobile_detect][type] = "module"
-;projects[context_mobile_detect][subdir] = "contrib"
+projects[context_mobile_detect][type] = "module"
+projects[context_mobile_detect][subdir] = "contrib"
 
 projects[responsive_tables][type] = "module"
 projects[responsive_tables][subdir] = "contrib"
@@ -355,11 +453,6 @@ projects[schemaorg][subdir] = "contrib"
 
 projects[seo_checklist][type] = "module"
 projects[seo_checklist][subdir] = "contrib"
-;  SEO Checklist and Performance and Scalability Checklist (pasc) dependency
-projects[checklistapi][type] = "module"
-projects[checklistapi][subdir] = "contrib"
-
-
 
 ; Social Networking
 
