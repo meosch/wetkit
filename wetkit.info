@@ -85,7 +85,8 @@ dependencies[] = admin_views
 dependencies[] = backup_migrate
 dependencies[] = coffee
 dependencies[] = drd_server
-dependencies[] = aes         ; DRD Server dependency
+; * DRD Server dependency
+dependencies[] = aes
 dependencies[] = elysia_cron
 dependencies[] = entity_operations
 ; * Entity Views Attachment
@@ -94,7 +95,8 @@ dependencies[] = file_maintenance
 dependencies[] = human_queue_worker
 dependencies[] = instantfilter
 dependencies[] = log_filter
-dependencies[] = judy                    ; Log Filter dependency
+; * Log Filter dependency
+dependencies[] = judy
 ; * Mobile Friendly Navigation Toolbar
 dependencies[] = navbar
 dependencies[] = role_watchdog
@@ -168,14 +170,18 @@ dependencies[] = piwik
 dependencies[] = schemaorg
 dependencies[] = search404
 dependencies[] = seo_checklist
-dependencies[] = checklistapi  ; SEO Checklist and Performance and Scalability Checklist (pasc) dependency
+; * SEO Checklist and Performance and Scalability Checklist (pasc) dependency
+dependencies[] = checklistapi
 
 ; Social Networking
 dependencies[] = addthis
-;dependencies[] = addthis_displays ; submodule of addthis cannot find a way to enable submodules within an info file.
+; * submodule of addthis cannot find a way to enable submodules within an info file.
+;dependencies[] = addthis_displays 
 dependencies[] = fluxkraft
-dependencies[] = fluxservice       ; fluxkraft dependency
-dependencies[] = composer_manager  ; fluxservice dependency
+; * fluxkraft dependency
+dependencies[] = fluxservice
+; * fluxservice dependency
+dependencies[] = composer_manager
 ;dependencies[] = facebookshare
 dependencies[] = secureshare
 
