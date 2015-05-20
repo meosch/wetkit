@@ -245,8 +245,8 @@ projects[context_bool_field][subdir] = "contrib"
 projects[context_breadcrumb_current_page][type] = "module"
 projects[context_breadcrumb_current_page][subdir] = "contrib"
 
-projects[context_conditional_admin_theme][type] = "module"
-projects[context_conditional_admin_theme][subdir] = "contrib"
+projects[context_condition_admin_theme][type] = "module"
+projects[context_condition_admin_theme][subdir] = "contrib"
 
 projects[context_field][type] = "module"
 projects[context_field][subdir] = "contrib"
