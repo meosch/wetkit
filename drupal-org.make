@@ -183,7 +183,8 @@ projects[eva][subdir] = "contrib"
 
 projects[file_maintenance][type] = "module"
 projects[file_maintenance][subdir] = "contrib"
-seckit
+
+projects[human_queue_worker][type] = "module"
 projects[human_queue_worker][subdir] = "contrib"
 
 projects[instantfilter][type] = "module"
@@ -201,6 +202,31 @@ projects[registry_rebuild][subdir] = "contrib"
 
 projects[role_watchdog][type] = "module"
 projects[role_watchdog][subdir] = "contrib"
+
+projects[semiclean][type] = "module"
+projects[semiclean][subdir] = "contrib"
+
+projects[simplified_menu_admin][type] = "module"
+projects[simplified_menu_admin][subdir] = "contrib"
+
+projects[site_verify][type] = "module"
+projects[site_verify][subdir] = "contrib"
+
+projects[system_status][type] = "module"
+projects[system_status][subdir] = "contrib"
+
+projects[views_bulk_operations][type] = "module"
+projects[views_bulk_operations][subdir] = "contrib"
+
+
+; Development
+projects[apps_batch][type] = "module"
+projects[apps_batch][subdir] = "contrib"
+
+projects[][type] = "module"
+projects[][subdir] = "contrib"
+
+
 
 
 ; Functionality
