@@ -134,7 +134,7 @@ dependencies[] = beautytips
 dependencies[] = boxes
 dependencies[] = calendar
 dependencies[] = caption_filter
-
+dependencies[] = chosen
 
 ; Functionality
 ;dependencies[] = shared_content
