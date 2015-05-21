@@ -345,8 +345,8 @@ projects[advanced_help][subdir] = "meos/contrib"
 
 ; Media Presentation
 
-;projects[colorbox][type] = "module"
-;projects[colorbox][subdir] = "meos/contrib"
+projects[colorbox][type] = "module"
+projects[colorbox][subdir] = "meos/contrib"
 
 projects[colorbox_swipe][type] = "module"
 projects[colorbox_swipe][subdir] = "meos/contrib"
@@ -354,17 +354,15 @@ projects[colorbox_swipe][subdir] = "meos/contrib"
 libraries[colorbox][type] = "libraries"
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
-;libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries/meos/colorbox"
 
 ;projects[flexslider][type] = "module"
 ;projects[flexslider][subdir] = "meos/contrib"
 
+;libraries[flexslider][type] = "libraries"
 ;libraries[flexslider][download][type] = "get"
 ;libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/zipball/master"
-;libraries[flexslider][directory_name] = "flexslider"
-;libraries[flexslider][type] = "libraries"
-;libraries[flexslider][destination] = "libraries/meos"
+;libraries[flexslider][destination] = "libraries/meos/flexslider"
 
 projects[imagefield_crop][type] = "module"
 projects[imagefield_crop][subdir] = "meos/contrib"
