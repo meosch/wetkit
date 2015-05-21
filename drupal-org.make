@@ -345,8 +345,8 @@ projects[advanced_help][subdir] = "meos/contrib"
 
 ; Media Presentation
 
-projects[colorbox][type] = "module"
-projects[colorbox][subdir] = "meos/contrib"
+;projects[colorbox][type] = "module"
+;projects[colorbox][subdir] = "meos/contrib"
 
 libraries[colorbox][type] = "libraries"
 libraries[colorbox][download][type] = "file"
