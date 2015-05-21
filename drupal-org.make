@@ -339,8 +339,9 @@ projects[shared_content][subdir] = "meos/contrib"
 projects[advanced_help][type] = "module"
 projects[advanced_help][subdir] = "meos/contrib"
 
-projects[joyride][type] = "module"
-projects[joyride][subdir] = "meos/contrib"
+;projects[joyride][type] = "module"
+;projects[joyride][subdir] = "meos/contrib"
+; joyride.make file is throwing errors
 
 ; Media Presentation
 
