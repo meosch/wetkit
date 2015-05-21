@@ -152,7 +152,8 @@ projects[views_bulk_operations][subdir] = "meos/contrib"
 projects[delicious_noindex][type] = "module"
 projects[delicious_noindex][download][type] = "git"
 projects[delicious_noindex][download][url] = "git@github.com:jenitehan/delicious_noindex.git"
-projects[views_bulk_operations][subdir] = "meos/delicious_noindex"
+;projects[delicious_noindex][subdir] = "meos/delicious_noindex"
+projects[delicious_noindex][destination] = "/sites/all/modules"
 
 ; Translations
 translations[] = de
@@ -351,7 +352,7 @@ libraries[colorbox][type] = "libraries"
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][destination] = "meos/libraries"
+libraries[colorbox][destination] = "/libraries/meos"
 
 ;projects[flexslider][type] = "module"
 ;projects[flexslider][subdir] = "meos/contrib"
@@ -360,7 +361,7 @@ libraries[colorbox][destination] = "meos/libraries"
 ;libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/zipball/master"
 ;libraries[flexslider][directory_name] = "flexslider"
 ;libraries[flexslider][type] = "libraries"
-;libraries[flexslider][destination] = "meos/libraries"
+;libraries[flexslider][destination] = "libraries/meos"
 
 projects[imagefield_crop][type] = "module"
 projects[imagefield_crop][subdir] = "meos/contrib"
