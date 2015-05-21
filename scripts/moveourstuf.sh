@@ -87,23 +87,42 @@ pause
 echo " "
 }
 
-movemeosyesno(){
+moveyesno(){
   echo -e -n "Should I move the MEOS files to the normal Drupal location? [y/N] "
   read -r response
 response=${response,,}    # tolower
 }
 
-movemeos(){
+move(){
+distroname="wetkit"
+ourstufffolder="meos"
+ourmodulespath=profiles/$distroname/modules/$ourstufffolder/
+ourthemespath=profiles/$distroname/themes/$ourstufffolder/
+ourlibrariespath=profiles/$distroname/libraries/$ourstufffolder/
 if [[ $response =~ ^(yes|y)$ || $yes = 1 ]]; then
-# Modules
-echo "Moving modules . . ."
-mv profiles/wetkit/modules/meos/*  sites/all/modules/
-# Themes
-echo "Moving themes . . ."
-mv profiles/wetkit/themes/meos/*  sites/all/themes/
-# Libraries
-echo "Moving libraries . . ."
-mv profiles/wetkit/libraries/meos/*  sites/all/libraries/
+  # Modules
+  if [ -d  $ourmodulespath ]; then
+    echo "Moving modules . . ."
+    mv ${ourmodulespath}*  sites/all/modules/
+  else
+    echo "No modules found, skipping!"
+  fi
+
+  # Themes
+  if [ -d  $ourthemespath ]; then
+    echo "Moving themes . . ."
+    mv ${ourthemespath}*  sites/all/themes/
+  else
+    echo "No themes found, skipping!"
+  fi
+
+  # Libraries
+  if [ -d  $ourlibrariespath ]; then
+    echo "Moving libraries . . ."
+    mv ${ourlibrariespath}*  sites/all/libraries/
+  else
+    echo "No libraries found, skipping!"
+  fi
 else
 exit
 fi
@@ -117,14 +136,14 @@ finished(){
 if [ $yes = 1 ]; then 
 switchdirctoryifgiven
 areweinadrupalwebroot
-movemeos
+move
 else
 switchdirctoryifgiven
 areweinadrupalwebroot
 informuser
 notwhatyouwanted
-movemeosyesno
-movemeos
+moveyesno
+move
 finished
 fi
 
