@@ -348,6 +348,9 @@ projects[advanced_help][subdir] = "meos/contrib"
 ;projects[colorbox][type] = "module"
 ;projects[colorbox][subdir] = "meos/contrib"
 
+projects[colorbox_swipe][type] = "module"
+projects[colorbox_swipe][subdir] = "meos/contrib"
+
 libraries[colorbox][type] = "libraries"
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
