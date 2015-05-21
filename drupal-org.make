@@ -164,6 +164,9 @@ translations[] = de
 
 ; Administration
 
+projects[admin][type] = "module"
+projects[admin][subdir] = "meos/contrib"
+
 projects[backup_migrate][type] = "module"
 projects[backup_migrate][subdir] = "meos/contrib"
 
@@ -188,6 +191,9 @@ projects[eva][subdir] = "meos/contrib"
 
 projects[file_maintenance][type] = "module"
 projects[file_maintenance][subdir] = "meos/contrib"
+
+projects[filter_protocols][type] = "module"
+projects[filter_protocols][subdir] = "meos/contrib"
 
 projects[human_queue_worker][type] = "module"
 projects[human_queue_worker][subdir] = "meos/contrib"
@@ -333,6 +339,7 @@ projects[caption_filter][subdir] = "meos/contrib"
 
 projects[chosen][type] = "module"
 projects[chosen][subdir] = "meos/contrib"
+
 
 
 

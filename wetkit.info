@@ -81,6 +81,7 @@ dependencies[] = rdf
 dependencies[] = delicious_noindex
 
 ; Administration
+dependencies[] = admin
 dependencies[] = admin_views
 dependencies[] = backup_migrate
 dependencies[] = coffee
@@ -92,6 +93,7 @@ dependencies[] = entity_operations
 ; * Entity Views Attachment
 dependencies[] = eva
 dependencies[] = file_maintenance
+dependencies[] = filter_protocols
 dependencies[] = human_queue_worker
 dependencies[] = instantfilter
 dependencies[] = log_filter
