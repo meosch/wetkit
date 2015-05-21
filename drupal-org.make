@@ -152,8 +152,7 @@ projects[views_bulk_operations][subdir] = "meos/contrib"
 projects[delicious_noindex][type] = "module"
 projects[delicious_noindex][download][type] = "git"
 projects[delicious_noindex][download][url] = "git@github.com:jenitehan/delicious_noindex.git"
-;projects[delicious_noindex][subdir] = "meos/delicious_noindex"
-projects[delicious_noindex][destination] = "/sites/all/modules"
+projects[delicious_noindex][subdir] = "meos/non-drupalorg"
 
 ; Translations
 translations[] = de
