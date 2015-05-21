@@ -103,7 +103,7 @@ echo "Moving themes . . ."
 mv profiles/wetkit/themes/meos/*  sites/all/themes/
 # Libraries
 echo "Moving libraries . . ."
-mv profiles/wetkit/libraries/meos/*  sites/all/librariesls /
+mv profiles/wetkit/libraries/meos/*  sites/all/libraries/
 else
 exit
 fi
