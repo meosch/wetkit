@@ -5,6 +5,26 @@
 #
 # We are forced to do it this way so that the modules can be enabled later during the installation. The profile will only download the files into its subdirectories. However if we make a separate make file the wetkit install will abort as the dependencies files are missing. So instead we download them with the wetkit files in their own meos subdirectories then move them to the default install locations in /sites/all/.  20150521 FJH
 
+# Change the variables below to match your situation. 
+# $distroname should be the same as the distribution machine name.
+# This will be the name of the folder in the profiles directory.
+# $ourstufffolder is the name of the subfolder that you will put your 
+# modules, themes and libraries into so that they can be copied.
+# You should do this in your .make file like this:
+# projects[project_name][subdir] = "ourstufffolder/contrib"
+# where ourstufffolder is the name of the subfolder that your 
+# non-profile  modules or themes will land in.
+# Libraries are a little different and look like this:
+# libraries[library_name][destination] = "libraries/ourstufffolder/library_name"
+# Replace project_name and library_name with the name of the project you are adding.
+# These variables will be used to create the path is the following way:
+# profiles/$distroname/modules, themes, or libraries/$ourstufffolder/
+# 20150521 - FJH Frederick Henderson
+
+distroname="wetkit"
+ourstufffolder="meos"
+
+# END CONFIGURATION #############################
 function usage()
 {
  echo "Usage ${0##*/}  -y -h <path>"
@@ -94,8 +114,6 @@ response=${response,,}    # tolower
 }
 
 move(){
-distroname="wetkit"
-ourstufffolder="meos"
 ourmodulespath=profiles/$distroname/modules/$ourstufffolder/
 ourthemespath=profiles/$distroname/themes/$ourstufffolder/
 ourlibrariespath=profiles/$distroname/libraries/$ourstufffolder/
