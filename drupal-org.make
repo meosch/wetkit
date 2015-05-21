@@ -350,7 +350,7 @@ projects[colorbox][subdir] = "meos/contrib"
 libraries[colorbox][type] = "libraries"
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
-libraries[colorbox][directory_name] = "colorbox"
+;libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries/meos/colorbox"
 
 ;projects[flexslider][type] = "module"
