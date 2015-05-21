@@ -524,14 +524,14 @@ projects[seo_checklist][subdir] = "meos/contrib"
 projects[addthis][type] = "module"
 projects[addthis][subdir] = "meos/contrib"
 
-projects[fluxkraft][type] = "module"
-projects[fluxkraft][subdir] = "meos/contrib"
+;projects[fluxkraft][type] = "module"
+;projects[fluxkraft][subdir] = "meos/contrib"
 ; fluxkraft dependency
-projects[fluxservice][type] = "module"
-projects[fluxservice][subdir] = "meos/contrib"
+;projects[fluxservice][type] = "module"
+;projects[fluxservice][subdir] = "meos/contrib"
 ; fluxservice dependency
-projects[composer_manager][type] = "module"
-projects[composer_manager][subdir] = "meos/contrib"
+;projects[composer_manager][type] = "module"
+;projects[composer_manager][subdir] = "meos/contrib"
 
 ;projects[facebookshare][type] = "module"
 ;projects[facebookshare][subdir] = "meos/contrib"
