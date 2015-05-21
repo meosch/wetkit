@@ -121,6 +121,8 @@ dependencies[] = feature_set
 dependencies[] = field_collection_fieldset
 dependencies[] = inline_entity_form
 dependencies[] = journal
+dependencies[] = masquerade
+dependencies[] = module_filter
 dependencies[] = profile_status_check
 dependencies[] = qa_checklist
 dependencies[] = rabbit_hole
@@ -131,11 +133,17 @@ dependencies[] = views_megarow
 dependencies[] = views_system
 
 ; Editor Experience
+
 dependencies[] = beautytips
 dependencies[] = boxes
 dependencies[] = calendar
 dependencies[] = caption_filter
 dependencies[] = chosen
+dependencies[] = contextual
+dependencies[] = date_popup_authored
+dependencies[] = email
+dependencies[] = emptyparagraphkiller
+
 
 ; Functionality
 ;dependencies[] = shared_content
@@ -238,4 +246,7 @@ dependencies[] = fast_404
 ; * Performance and Scalability Checklist
 dependencies[] = pasc
 
-; 
+; UX - User Experience
+
+dependencies[] = backports
+

@@ -162,10 +162,35 @@ projects[meoswetkit_shiny][download][url] = "git@github.com:frederickjh/meoswetk
 ; Translations
 translations[] = de
 
+; Dependencies we ran into that were not on our list
+
+; Log Filter dependency
+projects[judy][type] = "module"
+projects[judy][subdir] = "meos/contrib"
+
+; DRD Server dependency
+projects[aes][type] = "module"
+projects[aes][subdir] = "meos/contrib"
+
+projects[date_popup_authored][type] = "module"
+projects[date_popup_authored][subdir] = "meos/contrib"
+
+; Colorbox Swipe dependency
+projects[jquery_update][type] = "module"
+projects[jquery_update][subdir] = "meos/contrib"
+
+projects[linkit][type] = "module"
+projects[linkit][subdir] = "meos/contrib"
+
+
+
 ; Administration
 
 projects[admin][type] = "module"
 projects[admin][subdir] = "meos/contrib"
+
+projects[admin_views][type] = "module"
+projects[admin_views][subdir] = "meos/contrib"
 
 projects[backup_migrate][type] = "module"
 projects[backup_migrate][subdir] = "meos/contrib"
@@ -175,9 +200,7 @@ projects[coffee][subdir] = "meos/contrib"
 
 projects[drd_server][type] = "module"
 projects[drd_server][subdir] = "meos/contrib"
-; DRD Server dependency
-projects[aes][type] = "module"
-projects[aes][subdir] = "meos/contrib"
+
 
 projects[elysia_cron][type] = "module"
 projects[elysia_cron][subdir] = "meos/contrib"
@@ -203,9 +226,9 @@ projects[instantfilter][subdir] = "meos/contrib"
 
 projects[log_filter][type] = "module"
 projects[log_filter][subdir] = "meos/contrib"
-; Log Filter dependency
-projects[judy][type] = "module"
-projects[judy][subdir] = "meos/contrib"
+
+projects[navbar][type] = "module"
+projects[navbar][subdir] = "meos/contrib"
 
 projects[registry_rebuild][type] = "module"
 projects[registry_rebuild][subdir] = "meos/contrib"
@@ -299,6 +322,12 @@ projects[journal][subdir] = "meos/contrib"
 projects[mail_redirect][type] = "module"
 projects[mail_redirect][subdir] = "meos/contrib"
 
+projects[masquerade][type] = "module"
+projects[masquerade][subdir] = "meos/contrib"
+
+projects[module_filter][type] = "module"
+projects[module_filter][subdir] = "meos/contrib"
+
 projects[profile_status_check][type] = "module"
 projects[profile_status_check][subdir] = "meos/contrib"
 
@@ -325,6 +354,9 @@ projects[views_system][subdir] = "meos/contrib"
 
 ; Editor Experience
 
+projects[admin_select][type] = "module"
+projects[admin_select][subdir] = "meos/contrib"
+
 projects[beautytips][type] = "module"
 projects[beautytips][subdir] = "meos/contrib"
 
@@ -340,6 +372,20 @@ projects[caption_filter][subdir] = "meos/contrib"
 projects[chosen][type] = "module"
 projects[chosen][subdir] = "meos/contrib"
 
+projects[contextual][type] = "module"
+projects[contextual][subdir] = "meos/contrib"
+
+projects[delta][type] = "module"
+projects[delta][subdir] = "meos/contrib"
+
+projects[druplippy][type] = "module"
+projects[druplippy][subdir] = "meos/contrib"
+
+projects[email][type] = "module"
+projects[email][subdir] = "meos/contrib"
+
+projects[emptyparagraphkiller][type] = "module"
+projects[emptyparagraphkiller][subdir] = "meos/contrib"
 
 
 
@@ -501,8 +547,6 @@ projects[moopapi][subdir] = "meos/contrib"
 ; moopapi.make file spoils installation profile https://www.drupal.org/node/2328987
 projects[moopapi][patch] ="https://www.drupal.org/files/issues/moopapi-7.x-2.x-dev_makefile_remove_dependencies-2328987.patch"
 
-
-
 projects[botcha][type] = "module"
 projects[botcha][subdir] = "meos/contrib"
 
@@ -535,4 +579,9 @@ projects[fast_404][subdir] = "meos/contrib"
 
 projects[pasc][type] = "module"
 projects[pasc][subdir] = "meos/contrib"
+
+; UX - User Experience
+
+projects[backports][type] = "module"
+projects[backports][subdir] = "meos/contrib"
 
