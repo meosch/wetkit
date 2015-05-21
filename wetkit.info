@@ -114,7 +114,6 @@ dependencies[] = ds
 dependencies[] = enabled_modules
 dependencies[] = entityreference
 dependencies[] = entity_view_mode
-dependencies[] = features_extra
 dependencies[] = features_override
 dependencies[] = feature_set
 dependencies[] = field_collection_fieldset
