@@ -64,7 +64,7 @@ variables[password_policy_new_login_change] = 0
 ; Core dependancies
 dependencies[] = block
 dependencies[] = color
-dependencies[] = contextual
+;dependencies[] = contextual D6 only already in D7 core
 dependencies[] = help
 dependencies[] = image
 dependencies[] = list
