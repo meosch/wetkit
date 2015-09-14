@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Moves the files we do not want to change outside our webroot folder. We link this back to their normal places each time we do a distro rebuild in distro.rebuild.sh
+### Moves the files we do not want to change outside our webroot folder. We link this back to their normal places each time we do a distribution rebuild in distro.rebuild.sh script.  It is only needed to run this script once before the first distribution rebuild.
 
 # What is our webroot folder called?  docroot? httpdocs? public_html?
 webroot="public_html"
