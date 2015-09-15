@@ -23,7 +23,7 @@
 
 distroname="wetkit"
 ourstufffolder="meos"
-
+yes=0
 # END CONFIGURATION #############################
 function usage()
 {
