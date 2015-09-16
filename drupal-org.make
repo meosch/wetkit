@@ -218,8 +218,8 @@ projects[file_maintenance][subdir] = "meos/contrib"
 projects[filter_protocols][type] = "module"
 projects[filter_protocols][subdir] = "meos/contrib"
 
-projects[human_queue_worker][type] = "module"
-projects[human_queue_worker][subdir] = "meos/contrib"
+;projects[human_queue_worker][type] = "module"
+;projects[human_queue_worker][subdir] = "meos/contrib"
 
 projects[instantfilter][type] = "module"
 projects[instantfilter][subdir] = "meos/contrib"
