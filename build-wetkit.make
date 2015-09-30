@@ -21,5 +21,5 @@ projects[drupal][patch][2383823] = http://drupal.org/files/issues/2383823-check_
 ; Install profile
 projects[wetkit][type] = "profile"
 projects[wetkit][download][type] = "git"
-projects[wetkit][download][url] = "git@github.com:frederickjh/wetkit.git"
+projects[wetkit][download][url] = "git@github.com:meosch/wetkit.git"
 projects[wetkit][download][branch] = 7.x-4.0-rc1

@@ -6,7 +6,7 @@ core = 7.x
 projects[wetkit_admin][version] = 4.0-rc1
 projects[wetkit_admin][subdir] = custom
 projects[wetkit_admin][download][type] = "git"
-projects[wetkit_admin][download][url] = "git@github.com:frederickjh/wetkit_admin.git"
+projects[wetkit_admin][download][url] = "git@github.com:meosch/wetkit_admin.git"
 
 projects[wetkit_bean][version] = 4.0-rc1
 projects[wetkit_bean][subdir] = custom
