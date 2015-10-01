@@ -157,7 +157,7 @@ projects[delicious_noindex][subdir] = "meos/non-drupalorg"
 ; MEOS Wetkit Shiny Theme
 projects[meoswetkit_shiny][type] = "theme"
 projects[meoswetkit_shiny][download][type] = "git"
-projects[meoswetkit_shiny][download][url] = "git@github.com:frederickjh/meoswetkit_shiny.git"
+projects[meoswetkit_shiny][download][url] = "git@github.com:meosch/meoswetkit_shiny.git"
 
 ; Translations
 translations[] = de
