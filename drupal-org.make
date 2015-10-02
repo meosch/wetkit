@@ -544,8 +544,10 @@ projects[secureshare][subdir] = "meos/contrib"
 
 projects[moopapi][type] = "module"
 projects[moopapi][subdir] = "meos/contrib"
-; moopapi.make file spoils installation profile https://www.drupal.org/node/2328987
-;projects[moopapi][patch] ="https://www.drupal.org/files/issues/moopapi-7.x-2.x-dev_makefile_remove_dependencies-2328987.patch"
+; Patchwork library - moopapi dependency
+libraries[patchwork][download][type] = git
+libraries[patchwork][download][url] = https://github.com/antecedent/patchwork.git
+libraries[patchwork][destination] = libraries
 
 projects[botcha][type] = "module"
 projects[botcha][subdir] = "meos/contrib"
