@@ -544,10 +544,6 @@ projects[secureshare][subdir] = "meos/contrib"
 
 projects[moopapi][type] = "module"
 projects[moopapi][subdir] = "meos/contrib"
-; Patchwork library - moopapi dependency
-libraries[patchwork][download][type] = git
-libraries[patchwork][download][url] = https://github.com/antecedent/patchwork.git
-libraries[patchwork][destination] = libraries
 
 projects[botcha][type] = "module"
 projects[botcha][subdir] = "meos/contrib"
