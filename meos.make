@@ -16,6 +16,7 @@ translations[] = de
 ;Drupal 7 module that adds noindex, nofollow robots meta tag made by Jeni Tehan of Delicious Creative.
 projects[delicious_noindex][type] = "module"
 projects[delicious_noindex][download][type] = "git"
+projects[delicious_noindex][download][branch] = "master"
 projects[delicious_noindex][download][url] = "https://github.com/jenitehan/delicious_noindex.git"
 projects[delicious_noindex][subdir] = "non-drupalorg"
 
