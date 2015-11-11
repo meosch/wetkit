@@ -283,9 +283,15 @@ projects:
 #  - Speed Optimization
   advagg:
     type: module
+  entitycache:
+    type: module
   fast_404:
     type: module
+  httprl:
+    type: module
   imageapi_optimize:
+    type: module
+  imageinfo_cache:
     type: module
   pasc:
     type: module
