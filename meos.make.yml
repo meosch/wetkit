@@ -28,6 +28,8 @@ projects:
 # Administration
   admin:
     type: module
+  admin_menu:
+    type: module
   admin_views:
     type: module
   backup_migrate:
@@ -49,11 +51,9 @@ projects:
     type: module
   instantfilter:
     type: module
+  logging_alerts:
+    type: module
   log_filter:
-    type: module
-  navbar:
-    type: module
-  registry_rebuild:
     type: module
   role_watchdog:
     type: module
@@ -67,12 +67,16 @@ projects:
     type: module
   views_bulk_operations:
     type: module
+    
+    
 # Development
   apps_batch:
     type: module
   architecture:
     type: module
   behatrunner:
+    type: module
+  blockexport:
     type: module
 # SEO Checklist and Performance and Scalability Checklist (pasc) dependency
   checklistapi:
@@ -82,34 +86,23 @@ projects:
     type: module
   context:
     type: module
-  context_bool_field:
-    type: module
-  context_breadcrumb_current_page:
-    type: module
-  context_condition_admin_theme:
-    type: module
-  context_field:
-    type: module
-  context_no_title:
-    type: module
 # Display Suite
   ds:
     type: module
   enabled_modules:
     type: module
+  entityconnect:
+    type: module
   entityreference:
     type: module
   entity_view_mode:
     type: module
+  feature_set:
+    type: module
   features_extra:
     type: module
   features_override:
-    type: module
-  feature_set:
-    type: module
-  field_collection_fieldset:
-    type: module
-  inline_entity_form:
+    type: module field_collection_fieldset:
     type: module
   journal:
     type: module
@@ -117,7 +110,7 @@ projects:
     type: module
   masquerade:
     type: module
-  module_filter:
+  node_export:
     type: module
   profile_status_check:
     type: module
@@ -127,7 +120,13 @@ projects:
     type: module
   role_export:
     type: module
+  shield:
+    type: module
   sitenotes:
+    type: module
+  stage_file_proxy:
+    type: module
+  strongarm:
     type: module
   views_data_export:
     type: module
@@ -135,6 +134,8 @@ projects:
     type: module
   views_system:
     type: module
+
+
 # Editor Experience
   admin_select:
     type: module
