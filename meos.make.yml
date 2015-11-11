@@ -11,21 +11,12 @@ projects:
       branch: master
       url: 'https://github.com/jenitehan/delicious_noindex.git'
     subdir: non-drupalorg
-# Dependencies we ran into that were not on our list
-# Log Filter dependency
-  judy:
-    type: module
-# DRD Server dependency
-  aes:
-    type: module
+#  - Dependencies we ran into that were not on our list
   date_popup_authored:
-    type: module
-# Colorbox Swipe dependency
-  jquery_update:
     type: module
   linkit:
     type: module
-# Administration
+#  - Administration
   admin:
     type: module
   admin_menu:
@@ -35,6 +26,9 @@ projects:
   backup_migrate:
     type: module
   coffee:
+    type: module
+# DRD Server dependency
+  aes:
     type: module
   drd_server:
     type: module
@@ -53,6 +47,9 @@ projects:
     type: module
   logging_alerts:
     type: module
+# Log Filter dependency
+  judy:
+    type: module
   log_filter:
     type: module
   role_watchdog:
@@ -69,7 +66,7 @@ projects:
     type: module
     
     
-# Development
+#  - Development
   apps_batch:
     type: module
   architecture:
@@ -137,7 +134,7 @@ projects:
     type: module
 
 
-# Editor Experience
+#  - Editor Experience
   admin_select:
     type: module
   beautytips:
@@ -156,14 +153,28 @@ projects:
     type: module
   emptyparagraphkiller:
     type: module
-# Functionality
+
+
+#  - Email
+  mailgun:
+    type: module
+
+
+#  - Functionality
   shared_content:
     type: module
-# Help
+
+
+#  - Help
   advanced_help:
     type: module
-# Media Presentation
+
+
+#  - Media Presentation
   colorbox:
+    type: module
+# Colorbox Swipe dependency
+  jquery_update:
     type: module
   colorbox_swipe:
     type: module
@@ -179,12 +190,16 @@ projects:
     type: module
   views_slideshow:
     type: module
-# Multilingual
+
+
+#  - Multilingual
   de_stemmer:
     type: module
   lingotek:
     type: module
-# Path Management
+
+
+#  - Path Management
   globalredirect:
     type: module
   pathologic:
@@ -193,10 +208,14 @@ projects:
     type: module
   subpathauto:
     type: module
-# RSS
+
+
+#  - RSS
   flipboardrss:
     type: module
-# RWD Responsive Web Design
+
+
+#  - RWD (Responsive Web Design)
   context_breakpoint:
     type: module
   context_mobile_detect:
@@ -209,14 +228,18 @@ projects:
     type: module
   views_responsive_grid:
     type: module
-# Security
+
+
+#  - Security
   secure_notes:
     type: module
   seckit:
     type: module
   security_review:
     type: module
-# SEO
+
+
+#  - SEO
   beanstag:
     type: module
   navigation404:
@@ -229,12 +252,16 @@ projects:
     type: module
   seo_checklist:
     type: module
-# Social Networking
+
+
+#  - Social Networking
   addthis:
     type: module
   secureshare:
     type: module
-# Spam Control
+
+
+#  - Spam Control
   moopapi:
     type: module
   botcha:
@@ -249,18 +276,29 @@ projects:
     type: module
   user_verify:
     type: module
-# Speed Optimization
+
+
+#  - Speed Optimization
   advagg:
-    type: module
-  imageapi_optimize:
     type: module
   fast_404:
     type: module
+  imageapi_optimize:
+    type: module
   pasc:
     type: module
+
+
 #  - User Experience
   backports:
     type: module
+
+
+#  - Workflow
+  diff:
+    type: module
+
+
 libraries:
 # Administration
 # navbar dependencies - modernizr, backbone,underscore 
