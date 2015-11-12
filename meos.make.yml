@@ -246,6 +246,8 @@ projects:
     type: module
   navigation404:
     type: module
+# project / module name mismatch
+# module to enable in googleanalytics 
   google_analytics:
     type: module
   piwik:
