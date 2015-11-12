@@ -104,6 +104,8 @@ projects:
     type: module
   journal:
     type: module
+  libraries:
+    type: module
   mail_redirect:
     type: module
   masquerade:
