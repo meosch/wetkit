@@ -200,6 +200,9 @@ projects:
     type: module
   lingotek:
     type: module
+# Internationalization -lingotek dependency probably not needed as wetkit should install this
+    i18n:
+      type: module
 
 
 #  - Path Management
