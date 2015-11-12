@@ -96,6 +96,7 @@ projects:
     type: module
   feature_set:
     type: module
+# No module by project name sub-modules are fe_block, fe_date, fe_nodequeue, fe_profile
   features_extra:
     type: module
   features_override:
