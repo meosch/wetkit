@@ -103,6 +103,8 @@ projects:
     type: module
   field_collection_fieldset:
     type: module
+  field_slideshow:
+    type: module
   journal:
     type: module
   libraries:
