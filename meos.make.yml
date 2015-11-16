@@ -309,6 +309,19 @@ projects:
     type: module
 
 
+# - Theme
+  adminimal_theme:
+    type: themes
+  adminimal_admin_menu:
+    type: modules
+  bootstrap:
+    type: themes
+  responsive_bartik:
+    type: themes
+  tweme:
+    type: themes
+
+
 #  - User Experience
   backports:
     type: module
