@@ -316,6 +316,8 @@ projects:
     type: modules
   bootstrap:
     type: themes
+  fusion:
+    type: themes
   responsive_bartik:
     type: themes
   tweme:
