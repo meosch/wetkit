@@ -311,17 +311,36 @@ projects:
 
 # - Theme
   adminimal_theme:
-    type: themes
+    type: theme
   adminimal_admin_menu:
-    type: modules
+    type: module
   bootstrap:
-    type: themes
+    type: theme
   fusion:
-    type: themes
+    type: theme
   responsive_bartik:
-    type: themes
+    type: theme
   tweme:
-    type: themes
+    type: theme
+    
+
+# - Theming
+  fontyourface:
+    type: module
+  block_class:
+    type: module
+  conditional_styles
+    type: module
+  dtc:
+    type: module
+  fences:
+    type: module
+  fusion_accelerator:
+    type: module
+  semanticviews:
+    type: module
+  sweaver:
+    type: module
 
 
 #  - User Experience
