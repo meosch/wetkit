@@ -339,6 +339,8 @@ projects:
     type: module
   semanticviews:
     type: module
+  styleguide:
+    type: module
   sweaver:
     type: module
 
