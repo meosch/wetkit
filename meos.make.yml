@@ -329,7 +329,7 @@ projects:
     type: module
   block_class:
     type: module
-  conditional_styles
+  conditional_styles:
     type: module
   dtc:
     type: module
