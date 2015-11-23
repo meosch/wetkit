@@ -171,11 +171,6 @@ projects:
     type: module
 
 
-#  - Functionality
-  shared_content:
-    type: module
-
-
 #  - Help
   advanced_help:
     type: module
