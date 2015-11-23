@@ -16,6 +16,8 @@ projects:
     type: module
   linkit:
     type: module
+
+
 #  - Administration
   admin:
     type: module
@@ -27,10 +29,10 @@ projects:
     type: module
   coffee:
     type: module
+  drd_server:
+    type: module
 # DRD Server dependency
   aes:
-    type: module
-  drd_server:
     type: module
   elysia_cron:
     type: module
@@ -38,6 +40,8 @@ projects:
     type: module
 # Entity Views Attachment
   eva:
+    type: module
+  fpa:
     type: module
   file_maintenance:
     type: module
@@ -47,10 +51,10 @@ projects:
     type: module
   logging_alerts:
     type: module
+  log_filter:
+    type: module
 # Log Filter dependency
   judy:
-    type: module
-  log_filter:
     type: module
   role_watchdog:
     type: module
