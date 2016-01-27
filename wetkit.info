@@ -139,10 +139,16 @@ dependencies[] = boxes
 dependencies[] = calendar
 dependencies[] = caption_filter
 dependencies[] = chosen
+dependencies[] = clientside_validation
+dependencies[] = content_menu
+dependencies[] = context
+dependencies[] = context_admin
 dependencies[] = contextual
-dependencies[] = date_popup_authored
+;dependencies[] = date_popup_authored
+dependencies[] = delta
 dependencies[] = email
 dependencies[] = emptyparagraphkiller
+dependencies[] = field_group
 
 
 ; Functionality

@@ -148,6 +148,8 @@ projects:
 #  - Editor Experience
   admin_select:
     type: module
+  admin_menu_source:
+    type: module
   beautytips:
     type: module
   boxes:
@@ -158,11 +160,21 @@ projects:
     type: module
   chosen:
     type: module
+  clientside_validation:
+    type: module
+  content_menu:
+    type: module
+  context:
+    type: module
+  context_admin:
+    type: module
   delta:
     type: module
   email:
     type: module
   emptyparagraphkiller:
+    type: module
+  field_group:
     type: module
 
 
