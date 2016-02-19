@@ -1,5 +1,8 @@
 api = 2
 core = 7.x
+; By default, store all contrib modules in the "contrib" subdirectory of
+; sites/all/modules.
+defaults[projects][subdir] = contrib
 
 ; WxT Foundation (Custom)
 
