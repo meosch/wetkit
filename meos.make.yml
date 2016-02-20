@@ -1,5 +1,10 @@
 api: '2'
 core: 7.x
+# Specify common subdir of "contrib"
+defaults:
+  projects:
+    subdir: "contrib"
+# Projects that don't specify subdir will go to the 'contrib' directory.
 translations:
   - de
 projects:

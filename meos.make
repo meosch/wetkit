@@ -4,10 +4,7 @@ core = 7.x
 ; MEOS Installation Profile
 
 # Specify common subdir of "contrib"
-defaults:
-  projects:
-      type: "module"
-    subdir: "contrib"
+defaults[projects][type][module][subdir] = "contrib"
 # Projects that don't specify subdir will go to the 'contrib' directory.
 
 ; Translations
