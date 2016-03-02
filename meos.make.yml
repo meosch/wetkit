@@ -76,6 +76,8 @@ projects:
 
 
 ###  - Development -  ###
+  advanced_link:
+    type: module
   apps_batch:
     type: module
   architecture:
@@ -113,6 +115,8 @@ projects:
   features_override:
     type: module
   field_collection_fieldset:
+    type: module
+  field_redirection:
     type: module
   field_slideshow:
     type: module
