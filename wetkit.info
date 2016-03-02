@@ -219,7 +219,6 @@ dependencies[] = navigation404
 dependencies[] = googleanalytics
 dependencies[] = piwik
 dependencies[] = schemaorg
-dependencies[] = search404
 dependencies[] = seo_checklist
 ; * SEO Checklist and Performance and Scalability Checklist (pasc) dependency
 dependencies[] = checklistapi
@@ -253,6 +252,22 @@ dependencies[] = fast_404
 ; * Performance and Scalability Checklist
 dependencies[] = pasc
 
+; Theme
+dependencies[] = adminimal_admin_menu
+
+; Theming
+dependencies[] = fontyourface
+dependencies[] = conditional_styles
+dependencies[] = fences
+dependencies[] = semanticviews
+dependencies[] = styleguide
+
+
 ; UX - User Experience
 
 dependencies[] = backports
+dependencies[] = login_destination
+dependencies[] = readonlymode
+dependencies[] = r4032login
+dependencies[] = views_autocomplete_filters
+dependencies[] = diff

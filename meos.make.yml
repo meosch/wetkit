@@ -232,7 +232,7 @@ projects:
     type: module
   lingotek:
     type: module
-# Internationalization -lingotek dependency probably not needed as wetkit should install this
+# Internationalization -lingotek dependency probably not needed as wetkit should install this. FIXME
   i18n:
     type: module
 
@@ -280,13 +280,15 @@ projects:
 
 
 ###  - SEO (Search Engine Optimization)-  ###
-  beanstag:
-    type: module
   navigation404:
+    type: module
+  beanstag:
     type: module
 # project / module name mismatch
 # module to enable in googleanalytics
   google_analytics:
+    type: module
+  page_title:
     type: module
   piwik:
     type: module
@@ -304,17 +306,18 @@ projects:
 
 
 ###  - Spam Control -  ###
-  moopapi:
+  badbehavior:
     type: module
   botcha:
+    type: module
+# botcha dependency
+  moopapi:
     type: module
   captcha:
     type: module
   spambot:
     type: module
   textcaptcha:
-    type: module
-  badbehavior:
     type: module
   user_verify:
     type: module
@@ -374,8 +377,29 @@ projects:
 
 
 ###  - UX (User Experience) -  ###
+  back_to_top:
+    type: module
   backports:
     type: module
+  draggableviews:
+    type: module
+  login_destination:
+    type: module
+  quicktabs:
+    type: module
+  readonlymode:
+    type: module
+  r4032login:
+    type: module
+  user_dashboard:
+    type: module
+  views_autocomplete_filters:
+    type: module
+  diff:
+    type: module
+  scheduler:
+    type: module
+  
 
 
 ###  - Workflow -  ###
