@@ -138,7 +138,7 @@ function wetkit_install() {
     node_type_save($type);
     node_add_body_field($type);
   }
-  
+
   // Insert default pre-defined RDF mapping into the database.
   $rdf_mappings = array(
     array(
@@ -159,7 +159,7 @@ function wetkit_install() {
 
   // Don't display date and author information for "Basic page" nodes by default.
   variable_set('node_submitted_page', FALSE);
-  
+
   // Disable the preview buttons on the basic page content type.
   variable_set('node_preview_page', '0');
 
@@ -206,12 +206,12 @@ function wetkit_install() {
     ->condition('type', 'theme')
     ->condition('name', 'seven')
     ->execute();
-  variable_set('admin_theme', 'seven');
+  variable_set('admin_theme', 'adminimal_theme');
   variable_set('node_admin_theme', '1');
-  
+
   // Enable the Tasty Backend Base module.
   module_enable(array('tasty_backend_base'));
-  
+
   // Set up views properly.
   variable_set('views_exposed_filter_any_label', 'new_any');
   variable_set('views_show_additional_queries', FALSE);
@@ -226,9 +226,9 @@ function wetkit_install() {
   variable_set('views_ui_show_preview_information', TRUE);
   variable_set('views_ui_show_sql_query', FALSE);
   variable_set('views_ui_show_sql_query_where', 'above');
-  
+
   // Rebuild permissions, otherwise we'll get a warning to rebuild as soon as the site is installed.
   node_access_rebuild();
-// End Tasty Backend stuff  
-  
+// End Tasty Backend stuff
+
 }
