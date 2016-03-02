@@ -181,7 +181,7 @@ projects:
     type: module
   context_admin:
     type: module
-  contexual:
+  contextual:
     type: module
   delta:
     type: module
@@ -399,7 +399,7 @@ projects:
     type: module
   scheduler:
     type: module
-  
+
 
 
 ###  - Workflow -  ###
