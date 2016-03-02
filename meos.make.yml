@@ -193,6 +193,8 @@ projects:
     type: module
   fullcalendar:
     type: module
+  inline_entity_form:
+    type: module
 
 
 #  - Email
