@@ -109,6 +109,7 @@ dependencies[] = system_status
 dependencies[] = views_bulk_operations
 
 ; Development
+dependencies[] = advanced_link
 dependencies[] = apps_batch
 dependencies[] = context
 ;Display Suite
@@ -118,9 +119,9 @@ dependencies[] = entityreference
 dependencies[] = entity_view_mode
 dependencies[] = features_override
 dependencies[] = feature_set
-dependencies[] = field_collection_fieldset
 dependencies[] = inline_entity_form
 dependencies[] = journal
+dependencies[] = link
 dependencies[] = masquerade
 dependencies[] = module_filter
 dependencies[] = profile_status_check
@@ -226,7 +227,7 @@ dependencies[] = checklistapi
 ; Social Networking
 dependencies[] = addthis
 ; * submodule of addthis cannot find a way to enable submodules within an info file.
-;dependencies[] = addthis_displays 
+;dependencies[] = addthis_displays
 ;dependencies[] = fluxkraft
 ; * fluxkraft dependency
 ;dependencies[] = fluxservice
@@ -255,4 +256,3 @@ dependencies[] = pasc
 ; UX - User Experience
 
 dependencies[] = backports
-

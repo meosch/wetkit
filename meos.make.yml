@@ -54,18 +54,20 @@ projects:
     type: module
   instantfilter:
     type: module
-  logging_alerts:
-    type: module
   log_filter:
     type: module
 # Log Filter dependency
   judy:
+    type: module
+  logging_alerts:
     type: module
   role_watchdog:
     type: module
   semiclean:
     type: module
   simplified_menu_admin:
+    type: module
+  site_audit:
     type: module
   site_verify:
     type: module
@@ -120,11 +122,15 @@ projects:
     type: module
   journal:
     type: module
+  link:
+    type: module
   libraries:
     type: module
   mail_redirect:
     type: module
   masquerade:
+    type: module
+  multifield:
     type: module
   node_export:
     type: module
@@ -175,6 +181,8 @@ projects:
     type: module
   context_admin:
     type: module
+  contexual:
+    type: module
   delta:
     type: module
   email:
@@ -182,6 +190,8 @@ projects:
   emptyparagraphkiller:
     type: module
   field_group:
+    type: module
+  fullcalendar:
     type: module
 
 
@@ -198,10 +208,10 @@ projects:
 ###  - Media Presentation -  ###
   colorbox:
     type: module
+  colorbox_swipe:
+    type: module
 # Colorbox Swipe dependency
   jquery_update:
-    type: module
-  colorbox_swipe:
     type: module
   imagefield_crop:
     type: module
