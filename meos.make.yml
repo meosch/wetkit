@@ -114,8 +114,6 @@ projects:
     type: module
   features_override:
     type: module
-  field_collection_fieldset:
-    type: module
   field_redirection:
     type: module
   field_slideshow:
