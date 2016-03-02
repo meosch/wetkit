@@ -177,6 +177,7 @@ dependencies[] = views_slideshow
 ; Multilingual
 dependencies[] = de_stemmer
 dependencies[] = lingotek
+dependencies[] = transliteration
 
 ;Path Management
 dependencies[] = globalredirect
