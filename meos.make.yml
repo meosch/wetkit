@@ -23,7 +23,7 @@ projects:
     type: module
 
 
-#  - Administration
+###  - Administration -  ###
   admin:
     type: module
   admin_menu:
@@ -73,9 +73,9 @@ projects:
     type: module
   views_bulk_operations:
     type: module
-    
-    
-#  - Development
+
+
+###  - Development -  ###
   apps_batch:
     type: module
   architecture:
@@ -150,7 +150,7 @@ projects:
     type: module
 
 
-#  - Editor Experience
+###  - Editor Experience -  ###
   admin_select:
     type: module
   admin_menu_source:
@@ -193,7 +193,7 @@ projects:
     type: module
 
 
-#  - Media Presentation
+###  - Media Presentation -  ###
   colorbox:
     type: module
 # Colorbox Swipe dependency
@@ -215,7 +215,7 @@ projects:
     type: module
 
 
-#  - Multilingual
+###  - Multilingual -  ###
   de_stemmer:
     type: module
   lingotek:
@@ -225,7 +225,7 @@ projects:
     type: module
 
 
-#  - Path Management
+###  - Path Management -  ###
   globalredirect:
     type: module
   pathologic:
@@ -236,12 +236,12 @@ projects:
     type: module
 
 
-#  - RSS
+###  - RSS -  ###
   flipboardrss:
     type: module
 
 
-#  - RWD (Responsive Web Design)
+###  - RWD (Responsive Web Design) -  ###
   context_breakpoint:
     type: module
   context_mobile_detect:
@@ -256,7 +256,7 @@ projects:
     type: module
 
 
-#  - Security
+###  - Security -  ###
   paranoia:
     type: module
   secure_notes:
@@ -267,13 +267,13 @@ projects:
     type: module
 
 
-#  - SEO
+###  - SEO (Search Engine Optimization)-  ###
   beanstag:
     type: module
   navigation404:
     type: module
 # project / module name mismatch
-# module to enable in googleanalytics 
+# module to enable in googleanalytics
   google_analytics:
     type: module
   piwik:
@@ -284,14 +284,14 @@ projects:
     type: module
 
 
-#  - Social Networking
+###  - Social Networking -  ###
   addthis:
     type: module
   secureshare:
     type: module
 
 
-#  - Spam Control
+###  - Spam Control -  ###
   moopapi:
     type: module
   botcha:
@@ -308,7 +308,7 @@ projects:
     type: module
 
 
-#  - Speed Optimization
+###  - Speed Optimization -  ###
   advagg:
     type: module
   entitycache:
@@ -325,7 +325,7 @@ projects:
     type: module
 
 
-# - Theme
+###  - Theme -  ###
   adminimal_theme:
     type: theme
   adminimal_admin_menu:
@@ -338,9 +338,9 @@ projects:
     type: theme
   tweme:
     type: theme
-    
 
-# - Theming
+
+###  - Theming -  ###
   fontyourface:
     type: module
   block_class:
@@ -361,19 +361,19 @@ projects:
     type: module
 
 
-#  - User Experience
+###  - UX (User Experience) -  ###
   backports:
     type: module
 
 
-#  - Workflow
+###  - Workflow -  ###
   diff:
     type: module
 
 
 libraries:
 # Administration
-# navbar dependencies - modernizr, backbone,underscore 
+# navbar dependencies - modernizr, backbone,underscore
   modernizr:
     download:
       type: git
