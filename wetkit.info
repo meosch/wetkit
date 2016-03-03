@@ -82,7 +82,6 @@ dependencies[] = delicious_noindex
 
 ; Administration
 dependencies[] = admin
-dependencies[] = admin_views
 dependencies[] = backup_migrate
 dependencies[] = coffee
 dependencies[] = drd_server
@@ -115,13 +114,10 @@ dependencies[] = context
 ;Display Suite
 dependencies[] = ds
 dependencies[] = enabled_modules
-dependencies[] = entityreference
-dependencies[] = entity_view_mode
 dependencies[] = features_override
 dependencies[] = feature_set
 dependencies[] = inline_entity_form
 dependencies[] = journal
-dependencies[] = link
 dependencies[] = masquerade
 dependencies[] = module_filter
 dependencies[] = profile_status_check
@@ -156,7 +152,6 @@ dependencies[] = field_group
 ;dependencies[] = shared_content
 
 ; Help
-dependencies[] = advanced_help
 ;dependencies[] = joyride
 
 
@@ -258,16 +253,12 @@ dependencies[] = adminimal_admin_menu
 ; Theming
 dependencies[] = fontyourface
 dependencies[] = conditional_styles
-dependencies[] = fences
 dependencies[] = semanticviews
 dependencies[] = styleguide
 
 
 ; UX - User Experience
 
-dependencies[] = backports
 dependencies[] = login_destination
 dependencies[] = readonlymode
 dependencies[] = r4032login
-dependencies[] = views_autocomplete_filters
-dependencies[] = diff
