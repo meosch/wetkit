@@ -159,8 +159,6 @@ projects:
 
 
 ###  - Editor Experience -  ###
-  admin_select:
-    type: module
   admin_menu_source:
     type: module
   beautytips:
