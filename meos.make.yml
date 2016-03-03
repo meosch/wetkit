@@ -19,16 +19,12 @@ projects:
 #  - Dependencies we ran into that were not on our list
   date_popup_authored:
     type: module
-  linkit:
-    type: module
 
 
 ###  - Administration -  ###
   admin:
     type: module
   admin_menu:
-    type: module
-  admin_views:
     type: module
   backup_migrate:
     type: module
@@ -105,10 +101,6 @@ projects:
     type: module
   entityconnect:
     type: module
-  entityreference:
-    type: module
-  entity_view_mode:
-    type: module
   feature_set:
     type: module
 # No module by project name sub-modules are fe_block, fe_date, fe_nodequeue, fe_profile
@@ -121,10 +113,6 @@ projects:
   field_slideshow:
     type: module
   journal:
-    type: module
-  link:
-    type: module
-  libraries:
     type: module
   mail_redirect:
     type: module
@@ -147,8 +135,6 @@ projects:
   sitenotes:
     type: module
   stage_file_proxy:
-    type: module
-  strongarm:
     type: module
   views_data_export:
     type: module
@@ -195,23 +181,18 @@ projects:
     type: module
 
 
-#  - Email
+###  - Email -  ###
   mailgun:
     type: module
 
 
-#  - Help
-  advanced_help:
-    type: module
+###  - Help -  ###
 
 
 ###  - Media Presentation -  ###
   colorbox:
     type: module
   colorbox_swipe:
-    type: module
-# Colorbox Swipe dependency
-  jquery_update:
     type: module
   imagefield_crop:
     type: module
@@ -231,9 +212,6 @@ projects:
   de_stemmer:
     type: module
   lingotek:
-    type: module
-# Internationalization -lingotek dependency probably not needed as wetkit should install this. FIXME
-  i18n:
     type: module
 
 
@@ -376,8 +354,6 @@ projects:
     type: module
   dtc:
     type: module
-  fences:
-    type: module
   fusion_accelerator:
     type: module
   semanticviews:
@@ -391,13 +367,9 @@ projects:
 ###  - UX (User Experience) -  ###
   back_to_top:
     type: module
-  backports:
-    type: module
   draggableviews:
     type: module
   login_destination:
-    type: module
-  quicktabs:
     type: module
   readonlymode:
     type: module
@@ -405,18 +377,12 @@ projects:
     type: module
   user_dashboard:
     type: module
-  views_autocomplete_filters:
-    type: module
-  diff:
-    type: module
   scheduler:
     type: module
 
 
 
 ###  - Workflow -  ###
-  diff:
-    type: module
 
 
 libraries:
