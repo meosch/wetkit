@@ -310,6 +310,12 @@ projects:
 ###  - Spam Control -  ###
   badbehavior:
     type: module
+# badbehavior dependency
+libraries:
+  bad-behavior:
+    download:
+      type: "file"
+      url: "http://downloads.wordpress.org/plugin/bad-behavior.2.2.15.zip"
   botcha:
     type: module
 # botcha dependency
