@@ -180,32 +180,24 @@ dependencies[] = wysiwyg_filter
 
 
 ; Help
-;dependencies[] = joyride
 
 
 ; Media Presentation
 dependencies[] = colorbox
-;dependencies[] = flexslider
-;dependencies[] = imagecache
-;dependencies[] = imagefield
 dependencies[] = imagefield_crop
 dependencies[] = imagefield_focus
 dependencies[] = scald
 dependencies[] = scald_panels_dnd
 dependencies[] = smartcrop
 dependencies[] = views_slideshow
-; * YouTube Field
-;dependencies[] = youtube
+
 
 ; Multilingual
 dependencies[] = de_stemmer
 dependencies[] = lingotek
-dependencies[] = transliteration
 
 ;Path Management
 dependencies[] = globalredirect
-dependencies[] = linkchecker
-dependencies[] = pathauto
 dependencies[] = pathologic
 dependencies[] = redirect
 dependencies[] = subpathauto
@@ -215,31 +207,31 @@ dependencies[] = flipboardrss
 
 ; RWD Responsive Web Design
 dependencies[] = breakpoints
-;dependencies[] = context_breakpoint
-;dependencies[] = context_mobile_detect
-; * Responsive Images(Picture)
-;dependencies[] = picture
+dependencies[] = context_breakpoint
+dependencies[] = context_mobile_detect
 dependencies[] = responsive_tables
 dependencies[] = touch_icons
 dependencies[] = viewport
 dependencies[] = views_responsive_grid
 
 ; Search
-;dependencies[] = elasticsearch_connector
-;dependencies[] = facetapi
 
 
 ; Security
+dependencies[] = paranoia
 dependencies[] = secure_notes
 ; * Security Kit
 dependencies[] = seckit
 dependencies[] = security_review
 
 ; SEO
-dependencies[] = beanstag
 dependencies[] = navigation404
+dependencies[] = beanstag
 ; https://www.drupal.org/node/427770#comment-6941046
+; project name google_analytics but module name is googleanalytics
 dependencies[] = googleanalytics
+dependencies[] = imagecache_token
+dependencies[] = page_title
 dependencies[] = piwik
 dependencies[] = schemaorg
 dependencies[] = seo_checklist
@@ -249,14 +241,8 @@ dependencies[] = xmlsitemap
 
 ; Social Networking
 dependencies[] = addthis
-; * submodule of addthis cannot find a way to enable submodules within an info file.
+; * submodule of addthis cannot find a way to enable submodules within an info file. FIXME
 ;dependencies[] = addthis_displays
-;dependencies[] = fluxkraft
-; * fluxkraft dependency
-;dependencies[] = fluxservice
-; * fluxservice dependency
-;dependencies[] = composer_manager
-;dependencies[] = facebookshare
 dependencies[] = secureshare
 
 ; Spam Control

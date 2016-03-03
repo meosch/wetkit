@@ -317,6 +317,7 @@ projects:
     type: module
 # project / module name mismatch
 # module to enable in googleanalytics
+# https://www.drupal.org/node/427770#comment-6941046
   google_analytics:
     type: module
   imagecache_token:
