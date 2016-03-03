@@ -274,6 +274,8 @@ projects:
     type: module
   seo_checklist:
     type: module
+  xmlsitemap:
+    type: module
 
 
 ###  - Social Networking -  ###
