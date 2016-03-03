@@ -179,6 +179,57 @@ projects:
     type: module
   inline_entity_form:
     type: module
+# Inline Form Errors
+  ife:
+    type: module
+  inline_messages:
+    type: module
+  insert:
+    type: module
+  maxlength:
+    type: module
+  menu_admin_per_menu:
+    type: module
+  menu_block:
+    type: module
+  multiple_selects:
+    type: module
+  multiselect:
+    type: module
+  nodeconnect:
+    type: module
+  node_pane:
+    type: module
+  override_node_options:
+    type: module
+  panels_breadcrumbs:
+    type: module
+  paragraphs:
+    type: module
+  quickedit:
+    type: module
+  references_dialog:
+    type: module
+  save_draft:
+    type: module
+  select_or_other:
+    type: module
+  simplify:
+    type: module
+  smart_trim:
+    type: module
+  soft_length_limit:
+    type: module
+  telephone:
+    type: module
+  url:
+    type: module
+  view_unpublished:
+    type: module
+  webform: module
+    type: module
+  wysiwyg_filter:
+    type: module
 
 
 ###  - Email -  ###

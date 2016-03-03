@@ -131,6 +131,7 @@ dependencies[] = views_system
 
 ; Editor Experience
 
+dependencies[] = admin_menu_source
 dependencies[] = beautytips
 dependencies[] = boxes
 dependencies[] = calendar
@@ -141,15 +142,42 @@ dependencies[] = content_menu
 dependencies[] = context
 dependencies[] = context_admin
 dependencies[] = contextual
-;dependencies[] = date_popup_authored
 dependencies[] = delta
 dependencies[] = email
 dependencies[] = emptyparagraphkiller
 dependencies[] = field_group
-
+dependencies[] = fullcalendar
+dependencies[] = inline_entity_form
+# Inline Form Errors
+dependencies[] = ife
+dependencies[] = inline_messages
+dependencies[] = instert
+dependencies[] = maxlength
+dependencies[] = menu_admin_per_menu
+dependencies[] = menu_block
+dependencies[] = menu_position
+dependencies[] = multiple_selects
+dependencies[] = multiselect
+dependencies[] = nodeconnect
+dependencies[] = node_pane
+dependencies[] = override_node_options
+dependencies[] = panels_breadcrumbs
+dependencies[] = paragraphs
+dependencies[] = quickedit
+dependencies[] = references_dialog
+dependencies[] = save_draft
+dependencies[] = select_or_other
+dependencies[] = simplify
+dependencies[] = smart_trim
+dependencies[] = soft_length_limit
+dependencies[] = telephone
+dependencies[] = url
+dependencies[] = view_unpublished
+dependencies[] = webform
+dependencies[] = wysiwyg_filter
 
 ; Functionality
-;dependencies[] = shared_content
+
 
 ; Help
 ;dependencies[] = joyride
