@@ -305,14 +305,20 @@ projects:
     type: module
   secureshare:
     type: module
+# secureshare dependency
+    socialshareprivacy:
+      type: libraries
+      download:
+        type: file
+        url: "http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.zip"
 
 
 ###  - Spam Control -  ###
   badbehavior:
     type: module
 # badbehavior dependency
-libraries:
   bad-behavior:
+    type: libraries
     download:
       type: "file"
       url: "http://downloads.wordpress.org/plugin/bad-behavior.2.2.15.zip"
@@ -416,7 +422,7 @@ libraries:
 
 
 libraries:
-# Administration
+###  - Administration -  ###
 # navbar dependencies - modernizr, backbone,underscore
   modernizr:
     download:
@@ -433,6 +439,15 @@ libraries:
       type: git
       url: 'https://github.com/jashkenas/underscore.git'
       tag: 1.5.0
+
+###  - Editor Experience -  ###
+# chosen ependency
+  chosen:
+    type: libraries
+    download:
+      type: "file"
+      url: "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+
 # Media Presentation
   colorbox:
     type: libraries
@@ -440,3 +455,5 @@ libraries:
       type: file
       url: 'https://github.com/jackmoore/colorbox/archive/1.x.zip'
     destination: libraries/colorbox
+
+###  - Spam Control -  ###
