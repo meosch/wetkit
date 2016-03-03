@@ -251,6 +251,8 @@ projects:
     type: module
   secure_notes:
     type: module
+  securepages:
+    type: module
   seckit:
     type: module
   security_review:
@@ -265,6 +267,8 @@ projects:
 # project / module name mismatch
 # module to enable in googleanalytics
   google_analytics:
+    type: module
+  imagecache_token:
     type: module
   page_title:
     type: module

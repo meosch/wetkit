@@ -217,6 +217,7 @@ dependencies[] = schemaorg
 dependencies[] = seo_checklist
 ; * SEO Checklist and Performance and Scalability Checklist (pasc) dependency
 dependencies[] = checklistapi
+dependencies[] = xmlsitemap
 
 ; Social Networking
 dependencies[] = addthis
