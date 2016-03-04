@@ -226,7 +226,7 @@ projects:
     type: module
   view_unpublished:
     type: module
-  webform: module
+  webform:
     type: module
   wysiwyg_filter:
     type: module
@@ -454,8 +454,8 @@ libraries:
 # chosen ependency
   chosen:
     download:
-      type: "file"
-      url: "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+      type: file
+      url: 'https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip'
 
 # Media Presentation
   colorbox:
@@ -469,11 +469,11 @@ libraries:
   socialshareprivacy:
     download:
       type: file
-      url: "http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.zip"
+      url: 'http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.zip'
 
 ###  - Spam Control -  ###
 # badbehavior dependency
-  bad-behavior:
+  badbehavior:
     download:
-      type: "file"
-      url: "http://downloads.wordpress.org/plugin/bad-behavior.2.2.15.zip"
+      type: file
+      url: 'http://downloads.wordpress.org/plugin/bad-behavior.2.2.15.zip'
