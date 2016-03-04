@@ -82,7 +82,6 @@ dependencies[] = delicious_noindex
 
 ; Administration
 dependencies[] = admin
-dependencies[] = backup_migrate
 dependencies[] = coffee
 dependencies[] = drd_server
 ; * DRD Server dependency
@@ -91,15 +90,14 @@ dependencies[] = elysia_cron
 dependencies[] = entity_operations
 ; * Entity Views Attachment
 dependencies[] = eva
+; * Fast Permission Administration
+dependencies[] = fpa
 dependencies[] = file_maintenance
 dependencies[] = filter_protocols
-;dependencies[] = human_queue_worker
 dependencies[] = instantfilter
 dependencies[] = log_filter
 ; * Log Filter dependency
 dependencies[] = judy
-; * Mobile Friendly Navigation Toolbar
-dependencies[] = navbar
 dependencies[] = role_watchdog
 dependencies[] = semiclean
 dependencies[] = simplified_menu_admin
@@ -111,7 +109,7 @@ dependencies[] = views_bulk_operations
 dependencies[] = advanced_link
 dependencies[] = apps_batch
 dependencies[] = context
-;Display Suite
+; * Display Suite
 dependencies[] = ds
 dependencies[] = enabled_modules
 dependencies[] = features_override
@@ -141,14 +139,14 @@ dependencies[] = clientside_validation
 dependencies[] = content_menu
 dependencies[] = context
 dependencies[] = context_admin
-dependencies[] = contextual
+; dependencies[] = contextual
 dependencies[] = delta
 dependencies[] = email
 dependencies[] = emptyparagraphkiller
 dependencies[] = field_group
 dependencies[] = fullcalendar
 dependencies[] = inline_entity_form
-# Inline Form Errors
+; * Inline Form Errors
 dependencies[] = ife
 dependencies[] = inline_messages
 dependencies[] = instert
@@ -227,8 +225,8 @@ dependencies[] = security_review
 ; SEO
 dependencies[] = navigation404
 dependencies[] = beanstag
-; https://www.drupal.org/node/427770#comment-6941046
-; project name google_analytics but module name is googleanalytics
+; * https://www.drupal.org/node/427770#comment-6941046
+; * project name google_analytics but module name is googleanalytics
 dependencies[] = googleanalytics
 dependencies[] = imagecache_token
 dependencies[] = page_title
@@ -242,23 +240,25 @@ dependencies[] = xmlsitemap
 ; Social Networking
 dependencies[] = addthis
 ; * submodule of addthis cannot find a way to enable submodules within an info file. FIXME
-;dependencies[] = addthis_displays
+dependencies[] = addthis_displays
 dependencies[] = secureshare
 
 ; Spam Control
+dependencies[] = badbehavior
 dependencies[] = botcha
 dependencies[] = captcha
+; * sub-module of captcha
 dependencies[] = image_captcha
+dependencies[] = image_captcha_refresh
 dependencies[] = spambot
-dependencies[] = badbehavior
 dependencies[] = textcaptcha
 dependencies[] = user_verify
 
 ; Speed Optimization
-; * Advance CSS/JS Aggregation
-dependencies[] = advagg
 dependencies[] = imageapi_optimize
 dependencies[] = fast_404
+dependencies[] = imageapi_optimize
+dependencies[] = imageinfo_cache
 ; * Performance and Scalability Checklist
 dependencies[] = pasc
 
