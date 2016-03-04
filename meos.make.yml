@@ -128,6 +128,8 @@ projects:
     type: module
   rabbit_hole:
     type: module
+  references:
+    type: module
   role_export:
     type: module
   shield:
@@ -191,6 +193,10 @@ projects:
   menu_admin_per_menu:
     type: module
   menu_block:
+    type: module
+  menu_editor:
+    type: module
+  menu_position:
     type: module
   multiple_selects:
     type: module
@@ -350,6 +356,8 @@ projects:
   moopapi:
     type: module
   captcha:
+    type: module
+  image_captcha_refresh:
     type: module
   spambot:
     type: module

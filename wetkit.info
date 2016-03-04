@@ -149,11 +149,11 @@ dependencies[] = inline_entity_form
 ; * Inline Form Errors
 dependencies[] = ife
 dependencies[] = inline_messages
-dependencies[] = instert
+dependencies[] = insert
 dependencies[] = maxlength
 dependencies[] = menu_admin_per_menu
 dependencies[] = menu_block
-dependencies[] = menu_position
+dependencies[] = menu_editor
 dependencies[] = multiple_selects
 dependencies[] = multiselect
 dependencies[] = nodeconnect
