@@ -473,7 +473,7 @@ libraries:
 
 ###  - Spam Control -  ###
 # badbehavior dependency
-  badbehavior:
+  bad-behavior:
     download:
       type: file
       url: 'http://downloads.wordpress.org/plugin/bad-behavior.2.2.15.zip'
