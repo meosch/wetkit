@@ -482,6 +482,8 @@ libraries:
       type: file
       url: 'https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip'
 # fullcalendar dependency
+# WARNING: The module has only been tested with the 1.5.x version of the jQuery
+# plugin. The 2.0.x version has shown some issues, consider using the older versions.
   fullcalendar:
     download:
       type: file
