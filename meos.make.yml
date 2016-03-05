@@ -231,6 +231,10 @@ projects:
     type: module
   references_dialog:
     type: module
+    patch:
+      # Patch for: several mispellings (reference_dialog) cause install errors
+      # https://www.drupal.org/node/2375741
+      - "https://www.drupal.org/files/issues/2375741-fixing_typo-1.patch"
   save_draft:
     type: module
   select_or_other:
