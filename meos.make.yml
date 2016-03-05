@@ -488,7 +488,7 @@ libraries:
     download:
       type: file
       url: 'https://github.com/fullcalendar/fullcalendar/releases/download/v1.6.4/fullcalendar-1.6.4.zip'
-      subtree: fullcalendar
+      subtree: 'fullcalendar-1.6.4/fullcalendar'
 
 # Media Presentation
   colorbox:
