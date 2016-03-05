@@ -229,7 +229,6 @@ dependencies[] = beanstag
 ; * project name google_analytics but module name is googleanalytics
 dependencies[] = googleanalytics
 dependencies[] = imagecache_token
-dependencies[] = page_title
 dependencies[] = piwik
 dependencies[] = schemaorg
 dependencies[] = seo_checklist

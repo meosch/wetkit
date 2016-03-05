@@ -347,8 +347,6 @@ projects:
     type: module
   imagecache_token:
     type: module
-  page_title:
-    type: module
   piwik:
     type: module
   schemaorg:
