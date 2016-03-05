@@ -16,6 +16,21 @@ projects:
       branch: master
       url: 'https://github.com/jenitehan/delicious_noindex.git'
     subdir: non-drupalorg
+
+###  - Modules from Wetkit that we are patching so we are overriding the module in the Wekit distribution. -  ###
+  media:
+    type: module
+    patch:
+      # Wetkit patches that they were already applying. Found in the modules directory in PATCHES.txt
+      - http://drupal.org/files/issues/media-file-name-focus-2084287-2.patch
+      - http://drupal.org/files/issues/media_alt_attributes-2129273-24.patch
+      - http://drupal.org/files/issues/media_wysiwyg_2126697-53.patch
+      - http://drupal.org/files/issues/media_dialog_appears-2272567-8.patch
+      - http://drupal.org/files/issues/media-alt-title-double-encoded-2308487-2.patch
+      - http://drupal.org/files/issues/media-multiple-blank-wysiwyg-2317519-22.patch
+      # Patch we are adding from "Unable to create directory" when used in installation profile https://www.drupal.org/node/2568123
+      - https://www.drupal.org/files/issues/unable_to_create-2568123-2.patch
+
 #  - Dependencies we ran into that were not on our list
   date_popup_authored:
     type: module
