@@ -251,7 +251,6 @@ dependencies[] = captcha
 dependencies[] = image_captcha
 dependencies[] = image_captcha_refresh
 dependencies[] = spambot
-dependencies[] = textcaptcha
 dependencies[] = user_verify
 
 ; Speed Optimization
