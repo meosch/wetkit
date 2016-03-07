@@ -243,10 +243,7 @@ dependencies[] = secureshare
 ; Spam Control
 dependencies[] = badbehavior
 dependencies[] = botcha
-dependencies[] = captcha
 ; * sub-module of captcha
-dependencies[] = image_captcha
-dependencies[] = image_captcha_refresh
 dependencies[] = spambot
 dependencies[] = user_verify
 
