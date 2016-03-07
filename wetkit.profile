@@ -167,6 +167,7 @@ function wetkit_form_install_configure_form_alter(&$form, $form_state) {
     '#default_value' => drupal_is_cli() ? FALSE : TRUE,
   );
   array_push($form['#submit'], 'wetkit_import_demo_content_form_submit');
+*/
 }
 
 /**
