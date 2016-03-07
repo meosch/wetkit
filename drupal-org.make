@@ -1,10 +1,15 @@
 api = 2
 core = 7.x
+; By default, store all contrib modules in the "contrib" subdirectory of
+; sites/all/modules.
+defaults[projects][subdir] = contrib
 
 ; WxT Foundation (Custom)
 
-projects[wetkit_admin][version] = 4.3
 projects[wetkit_admin][subdir] = custom
+projects[wetkit_admin][download][type] = "git"
+projects[wetkit_admin][download][url] = "git@github.com:meosch/wetkit_admin.git"
+projects[wetkit_admin][download][branch] = 7.x-4.3
 
 projects[wetkit_bean][version] = 4.2
 projects[wetkit_bean][subdir] = custom
@@ -79,3 +84,79 @@ projects[wetkit_bootstrap][type] = theme
 
 projects[wetkit_shiny][version] = 4.0
 projects[wetkit_shiny][type] = theme
+
+
+; Tasty Backend stuff.
+; Tasty Backend module.
+
+projects[tasty_backend_base][type] = "module"
+projects[tasty_backend_base][download][type] = "git"
+projects[tasty_backend_base][download][url] = "git@github.com:jenitehan/tasty_backend_base.git"
+; projects[tasty_backend_base][download][url] = "https://github.com/jenitehan/tasty_backend_base.git"
+projects[tasty_backend_base][subdir] = "meos/tasty_backend"
+
+projects[tasty_backend_standard][type] = "module"
+projects[tasty_backend_standard][download][type] = "git"
+projects[tasty_backend_standard][download][url] = "git@github.com:jenitehan/tasty_backend_standard.git"
+; projects[tasty_backend_standard][download][url] = "https://github.com/jenitehan/tasty_backend_standard.git"
+projects[tasty_backend_standard][subdir] = "meos/tasty_backend"
+
+projects[tasty_backend_demo][type] = "module"
+projects[tasty_backend_demo][download][type] = "git"
+projects[tasty_backend_demo][download][url] = "git@github.com:jenitehan/tasty_backend_demo.git"
+; projects[tasty_backend_demo][download][url] = "https://github.com/jenitehan/tasty_backend_demo.git"
+projects[tasty_backend_demo][subdir] = "meos/tasty_backend"
+
+; Tasty Backend Contrib module.
+
+projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][subdir] = "meos/contrib"
+
+projects[admin_menu_source][version] = 1.0
+projects[admin_menu_source][subdir] = "meos/contrib"
+
+projects[context_admin][version] = 1.x-dev
+projects[context_admin][subdir] = "meos/contrib"
+projects[context_admin][patch][] = "https://drupal.org/files/undefined_index-1760610-3.patch"
+projects[context_admin][patch][] = "https://drupal.org/files/issues/context_admin-reset_terms_alphabetical_redirect-2276567-1.patch"
+
+;projects[ctools][version] = 1.4
+;projects[ctools][subdir] = "meos/contrib"
+
+projects[entity][version] = 1.5
+projects[entity][subdir] = "meos/contrib"
+
+projects[field_group][version] = 1.3
+projects[field_group][subdir] = "meos/contrib"
+
+projects[menu_admin_per_menu][version] = 1.0
+projects[menu_admin_per_menu][subdir] = "meos/contrib"
+
+projects[override_node_options][version] = 1.12
+projects[override_node_options][subdir] = "meos/contrib"
+
+projects[role_delegation][version] = 1.1
+projects[role_delegation][subdir] = "meos/contrib"
+
+projects[user_settings_access][version] = 1.0
+projects[user_settings_access][subdir] = "meos/contrib"
+
+projects[view_unpublished][version] = 1.1
+projects[view_unpublished][subdir] = "meos/contrib"
+
+projects[views][version] = 3.8
+projects[views][subdir] = "meos/contrib"
+
+projects[views_bulk_operations][version] = 3.2
+projects[views_bulk_operations][subdir] = "meos/contrib"
+
+; END Tasy Backend stuff
+
+; MEOS Wetkit Shiny Theme
+projects[meoswetkit_shiny][type] = "theme"
+projects[meoswetkit_shiny][download][type] = "git"
+projects[meoswetkit_shiny][download][url] = "git@github.com:meosch/meoswetkit_shiny.git"
+
+; Translations
+translations[] = de
+
