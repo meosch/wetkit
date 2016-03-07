@@ -6,10 +6,10 @@ defaults[projects][subdir] = contrib
 
 ; WxT Foundation (Custom)
 
-projects[wetkit_admin][version] = 4.0-rc1
 projects[wetkit_admin][subdir] = custom
 projects[wetkit_admin][download][type] = "git"
 projects[wetkit_admin][download][url] = "git@github.com:meosch/wetkit_admin.git"
+projects[wetkit_admin][download][branch] = 7.x-4.0-rc1
 
 projects[wetkit_bean][version] = 4.0-rc1
 projects[wetkit_bean][subdir] = custom
@@ -156,4 +156,3 @@ projects[meoswetkit_shiny][download][url] = "git@github.com:meosch/meoswetkit_sh
 
 ; Translations
 translations[] = de
-
