@@ -6,7 +6,7 @@ defaults[projects][subdir] = contrib
 
 ; WxT Foundation (Custom)
 
-projects[wetkit_admin][subdir] = custom
+projects[wetkit_admin][subdir] = meos/custom_wetkit
 projects[wetkit_admin][download][type] = "git"
 projects[wetkit_admin][download][url] = "git@github.com:meosch/wetkit_admin.git"
 projects[wetkit_admin][download][branch] = 7.x-4.3
