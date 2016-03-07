@@ -31,11 +31,6 @@ projects:
       # Patch we are adding from "Unable to create directory" when used in installation profile https://www.drupal.org/node/2568123
       - https://www.drupal.org/files/issues/unable_to_create-2568123-2.patch
 
-#  - Dependencies we ran into that were not on our list
-  date_popup_authored:
-    type: module
-
-
 ###  - Administration -  ###
   admin:
     type: module
@@ -207,8 +202,6 @@ projects:
     type: module
   menu_admin_per_menu:
     type: module
-  menu_block:
-    type: module
   menu_editor:
     type: module
   menu_position:
@@ -250,8 +243,6 @@ projects:
   url:
     type: module
   view_unpublished:
-    type: module
-  webform:
     type: module
   wysiwyg_filter:
     type: module

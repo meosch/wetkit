@@ -152,7 +152,6 @@ dependencies[] = inline_messages
 dependencies[] = insert
 dependencies[] = maxlength
 dependencies[] = menu_admin_per_menu
-dependencies[] = menu_block
 dependencies[] = menu_editor
 dependencies[] = multiple_selects
 dependencies[] = multiselect
@@ -171,7 +170,6 @@ dependencies[] = soft_length_limit
 dependencies[] = telephone
 dependencies[] = url
 dependencies[] = view_unpublished
-dependencies[] = webform
 dependencies[] = wysiwyg_filter
 
 ; Functionality
