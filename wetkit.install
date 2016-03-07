@@ -231,4 +231,25 @@ function wetkit_install() {
   node_access_rebuild();
 // End Tasty Backend stuff
 
+// Start MEOS stuff
+// ** We are setting the next two variables in wetkit.profile file
+// variable_set('site_default_country','CH');
+// variable_set('date_default_timezone','Europe/Zurich');
+
+variable_set('date_api_use_iso8601','1');
+variable_set('date_api_version','7.2');
+variable_set('date_first_day','1');
+variable_set('date_format_long','l, j. F Y - G:i');
+variable_set('date_format_medium','j. F Y - G:i');
+variable_set('date_format_short','d.m.Y - H:i');
+variable_set('date_format_wetkit_day','F j, Y');
+variable_set('date_format_wetkit_time','g:ia');
+variable_set('date_views_day_format_without_year','l, F j');
+variable_set('date_views_day_format_with_year','l, F j, Y');
+variable_set('date_views_month_format_without_year','F');
+variable_set('date_views_month_format_with_year','F Y');
+variable_set('date_views_week_format_without_year','F j');
+variable_set('date_views_week_format_with_year','F j, Y');
+// End MEOS stuff
+
 }
