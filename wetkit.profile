@@ -144,11 +144,11 @@ function wetkit_form_install_configure_form_alter(&$form, $form_state) {
   drupal_get_messages('warning');
 
   // Set reasonable defaults for site configuration form.
-  $form['site_information']['site_name']['#default_value'] = 'Web Experience Toolkit';
-  $form['admin_account']['account']['name']['#default_value'] = 'admin';
+  $form['site_information']['site_name']['#default_value'] = 'A new MEOS Website';
+  $form['admin_account']['account']['name']['#default_value'] = 'Drupal Admin';
   $form['server_settings']['site_default_country']['#default_value'] = 'CH';
-  $form['server_settings']['date_default_timezone']['#default_value'] = 'America/New_York';
-
+  $form['server_settings']['date_default_timezone']['#default_value'] = 'Europe/Zurich';
+/**
   // Define a default email address if we can guess a valid one.
   if (valid_email_address('admin@' . $_SERVER['HTTP_HOST'])) {
     $form['site_information']['site_mail']['#default_value'] = 'admin@' . $_SERVER['HTTP_HOST'];
@@ -185,7 +185,7 @@ function wetkit_batch_processing(&$install_state) {
 
 }
  */
- 
+
 /**
  * Task callback: return a batch API array with the products to be imported.
  */
