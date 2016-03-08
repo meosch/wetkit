@@ -62,3 +62,214 @@ stylesheets[all][] = css/wetkit.css
 ; Settings
 variables[password_policy_show_restrictions] = 1
 variables[password_policy_new_login_change] = 0
+
+; Tasty Backend stuff
+; Core dependancies
+dependencies[] = block
+dependencies[] = color
+;dependencies[] = contextual D6 only already in D7 core
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = delicious_noindex
+
+; Administration
+dependencies[] = admin
+dependencies[] = coffee
+dependencies[] = drd_server
+; * DRD Server dependency
+dependencies[] = aes
+dependencies[] = elysia_cron
+dependencies[] = entity_operations
+; * Entity Views Attachment
+dependencies[] = eva
+; * Fast Permission Administration
+dependencies[] = fpa
+dependencies[] = file_maintenance
+dependencies[] = filter_protocols
+dependencies[] = instantfilter
+dependencies[] = log_filter
+; * Log Filter dependency
+dependencies[] = judy
+dependencies[] = role_watchdog
+dependencies[] = semiclean
+dependencies[] = simplified_menu_admin
+dependencies[] = site_verify
+dependencies[] = system_status
+dependencies[] = views_bulk_operations
+
+; Development
+dependencies[] = advanced_link
+dependencies[] = apps_batch
+dependencies[] = context
+; * Display Suite
+dependencies[] = ds
+dependencies[] = enabled_modules
+dependencies[] = features_override
+dependencies[] = feature_set
+dependencies[] = inline_entity_form
+dependencies[] = journal
+dependencies[] = masquerade
+dependencies[] = module_filter
+dependencies[] = profile_status_check
+dependencies[] = qa_checklist
+dependencies[] = rabbit_hole
+dependencies[] = role_export
+dependencies[] = sitenotes
+dependencies[] = views_data_export
+dependencies[] = views_megarow
+dependencies[] = views_system
+
+; Editor Experience
+
+dependencies[] = admin_menu_source
+dependencies[] = beautytips
+dependencies[] = boxes
+dependencies[] = calendar
+dependencies[] = caption_filter
+dependencies[] = chosen
+dependencies[] = clientside_validation
+dependencies[] = content_menu
+dependencies[] = context
+dependencies[] = context_admin
+; dependencies[] = contextual
+dependencies[] = delta
+dependencies[] = email
+dependencies[] = emptyparagraphkiller
+dependencies[] = field_group
+dependencies[] = fullcalendar
+dependencies[] = inline_entity_form
+; * Inline Form Errors
+dependencies[] = ife
+dependencies[] = inline_messages
+dependencies[] = insert
+dependencies[] = maxlength
+dependencies[] = menu_admin_per_menu
+dependencies[] = menu_editor
+dependencies[] = multiple_selects
+dependencies[] = multiselect
+dependencies[] = nodeconnect
+dependencies[] = node_pane
+dependencies[] = override_node_options
+dependencies[] = panels_breadcrumbs
+dependencies[] = paragraphs
+dependencies[] = quickedit
+dependencies[] = references_dialog
+dependencies[] = save_draft
+dependencies[] = select_or_other
+dependencies[] = simplify
+dependencies[] = smart_trim
+dependencies[] = soft_length_limit
+dependencies[] = telephone
+dependencies[] = url
+dependencies[] = view_unpublished
+dependencies[] = wysiwyg_filter
+
+; Functionality
+
+
+; Help
+
+
+; Media Presentation
+dependencies[] = colorbox
+dependencies[] = imagefield_crop
+dependencies[] = imagefield_focus
+dependencies[] = scald
+dependencies[] = scald_panels_dnd
+dependencies[] = smartcrop
+dependencies[] = views_slideshow
+
+
+; Multilingual
+dependencies[] = de_stemmer
+dependencies[] = lingotek
+
+;Path Management
+dependencies[] = globalredirect
+dependencies[] = pathologic
+dependencies[] = redirect
+dependencies[] = subpathauto
+
+;RSS
+dependencies[] = flipboardrss
+
+; RWD Responsive Web Design
+dependencies[] = breakpoints
+dependencies[] = context_breakpoint
+dependencies[] = context_mobile_detect
+dependencies[] = responsive_tables
+dependencies[] = touch_icons
+dependencies[] = viewport
+dependencies[] = views_responsive_grid
+
+; Search
+
+
+; Security
+dependencies[] = paranoia
+dependencies[] = secure_notes
+; * Security Kit
+dependencies[] = seckit
+dependencies[] = security_review
+
+; SEO
+dependencies[] = navigation404
+dependencies[] = beanstag
+; * https://www.drupal.org/node/427770#comment-6941046
+; * project name google_analytics but module name is googleanalytics
+dependencies[] = googleanalytics
+dependencies[] = imagecache_token
+dependencies[] = piwik
+dependencies[] = schemaorg
+dependencies[] = seo_checklist
+; * SEO Checklist and Performance and Scalability Checklist (pasc) dependency
+dependencies[] = checklistapi
+dependencies[] = xmlsitemap
+
+; Social Networking
+dependencies[] = addthis
+; * submodule of addthis cannot find a way to enable submodules within an info file. FIXME
+dependencies[] = addthis_displays
+dependencies[] = secureshare
+
+; Spam Control
+dependencies[] = badbehavior
+dependencies[] = botcha
+; * sub-module of captcha
+dependencies[] = spambot
+dependencies[] = user_verify
+
+; Speed Optimization
+dependencies[] = imageapi_optimize
+dependencies[] = fast_404
+dependencies[] = imageapi_optimize
+dependencies[] = imageinfo_cache
+; * Performance and Scalability Checklist
+dependencies[] = pasc
+
+; Theme
+dependencies[] = adminimal_admin_menu
+
+; Theming
+dependencies[] = fontyourface
+dependencies[] = conditional_styles
+dependencies[] = semanticviews
+dependencies[] = styleguide
+
+
+; UX - User Experience
+
+dependencies[] = login_destination
+dependencies[] = readonlymode
+dependencies[] = r4032login
